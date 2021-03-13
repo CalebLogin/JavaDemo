@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="" />
+    <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo41.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo44.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,46 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OfferDemo44">
-    <configuration name="OfferDemo36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo36" />
-      <module name="JianZhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.offerdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OfferDemo40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo40" />
-      <module name="JianZhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.offerdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OfferDemo41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo41" />
-      <module name="JianZhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.offerdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OfferDemo47">
     <configuration name="OfferDemo43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo43" />
       <module name="JianZhiOffer" />
@@ -116,13 +85,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OfferDemo45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo45" />
+      <module name="JianZhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.offerdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferDemo46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo46" />
+      <module name="JianZhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.offerdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferDemo47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo47" />
+      <module name="JianZhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.offerdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OfferDemo47" />
+        <item itemvalue="Application.OfferDemo46" />
+        <item itemvalue="Application.OfferDemo45" />
         <item itemvalue="Application.OfferDemo44" />
         <item itemvalue="Application.OfferDemo43" />
-        <item itemvalue="Application.OfferDemo41" />
-        <item itemvalue="Application.OfferDemo40" />
-        <item itemvalue="Application.OfferDemo36" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +170,8 @@
       <workItem from="1615000738348" duration="55977000" />
       <workItem from="1615427000642" duration="3936000" />
       <workItem from="1615451339833" duration="4092000" />
-      <workItem from="1615464465540" duration="11605000" />
+      <workItem from="1615464465540" duration="11723000" />
+      <workItem from="1615549103137" duration="8857000" />
     </task>
     <servers />
   </component>
@@ -174,7 +183,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
