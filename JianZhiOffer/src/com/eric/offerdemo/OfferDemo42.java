@@ -5,7 +5,7 @@ package com.eric.offerdemo;
  * @author：hanzhigang
  * @Date : 2021/3/11 9:50 PM
  */
-public class OfferDemo41 {
+public class OfferDemo42 {
 
     /**
      * 动态规划的方法 dp[i+1] = max(dp[i]+cur,cur)
