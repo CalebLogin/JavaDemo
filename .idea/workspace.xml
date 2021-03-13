@@ -6,8 +6,8 @@
       <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo46.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo47.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo41.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo41.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo44.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,6 +172,7 @@
       <workItem from="1615451339833" duration="4092000" />
       <workItem from="1615464465540" duration="11723000" />
       <workItem from="1615549103137" duration="8857000" />
+      <workItem from="1615621176560" duration="248000" />
     </task>
     <servers />
   </component>
