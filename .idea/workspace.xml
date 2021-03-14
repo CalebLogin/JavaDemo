@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/eric/java/StaticInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo52.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo49.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo49.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo49.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticInitialization">
+  <component name="RunManager" selected="Application.OfferDemo49">
     <configuration name="OfferDemo46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo46" />
       <module name="JianZhiOffer" />
@@ -121,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticInitialization" />
         <item itemvalue="Application.OfferDemo49" />
+        <item itemvalue="Application.StaticInitialization" />
         <item itemvalue="Application.OfferDemo48" />
         <item itemvalue="Application.OfferDemo47" />
         <item itemvalue="Application.OfferDemo46" />
@@ -169,7 +173,8 @@
       <workItem from="1615549103137" duration="8857000" />
       <workItem from="1615621176560" duration="1230000" />
       <workItem from="1615646811736" duration="4197000" />
-      <workItem from="1615703344565" duration="2067000" />
+      <workItem from="1615703344565" duration="2184000" />
+      <workItem from="1615728774033" duration="5152000" />
     </task>
     <servers />
   </component>
