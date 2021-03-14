@@ -1,6 +1,4 @@
-package demo;
-
-import apple.laf.JRSUIUtils;
+package com.eric.demo;
 
 /**
  * @author：hanzhigang

@@ -1,4 +1,4 @@
-package dynamicproxy;
+package com.eric.dynamicproxy;
 
 /**
  * @author：hanzhigang

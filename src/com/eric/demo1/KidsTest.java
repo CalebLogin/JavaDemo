@@ -1,4 +1,4 @@
-package demo1;
+package com.eric.demo1;
 
 /**
  * @author：hanzhigang

@@ -1,4 +1,4 @@
-package demo;
+package com.eric.demo;
 /**
  * @author：hanzhigang
  * @Date : 2020/6/20 11:21 PM

@@ -1,6 +1,4 @@
-package demo;
-
-import java.io.PrintWriter;
+package com.eric.demo;
 
 /**
  * @author：hanzhigang

@@ -1,7 +1,5 @@
 package com.eric.juc;
 
-import demo.Main;
-
 /**
  * @author：hanzhigang
  * @Date : 2021/2/28 5:57 PM

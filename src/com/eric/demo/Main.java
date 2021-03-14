@@ -1,4 +1,4 @@
-package demo;
+package com.eric.demo;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -15,7 +15,7 @@ public class Main {
         /**
          * 获取TargetObject类的class对象并创建TargetObject类实例
          */
-        Class<?> targetClass = Class.forName("demo.TargetObject");
+        Class<?> targetClass = Class.forName("com.eric.demo.TargetObject");
         TargetObject targetObject = (TargetObject) targetClass.newInstance();
         /**
          * 获取所有类中所有定义的方法

@@ -1,6 +1,4 @@
-package demo;
-
-import java.util.Arrays;
+package com.eric.demo;
 
 /**
  * @author：hanzhigang

@@ -1,4 +1,4 @@
-package demo;
+package com.eric.demo;
 
 import java.util.HashSet;
 import java.util.Objects;
