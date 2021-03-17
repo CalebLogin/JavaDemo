@@ -38,7 +38,68 @@ public class Solution {
         return curNode.next;
     }
 
-    public static void main(String[] args) {
+    /**
+     * 两两反转
+     *
+     * @param root
+     * @return
+     */
+    public static ListNode reverseList(ListNode root) {
+//      当空节点或一个节点的时候，返回root
+        if (root == null || root.next == null) {
+            return root;
+        }
 
+//      虚拟前置节点，前置的节点,当前节点，下一个节点
+        ListNode prevv = new ListNode(-1);
+        ListNode prev = root, curNode = root.next, afterNode;
+        prevv.next = prev;
+//      头节点
+        ListNode head = root.next;
+
+//      当前节点不为空时，至少存在偶数个节点
+        while (curNode != null) {
+            prevv.next = curNode;
+            afterNode = curNode.next;
+            prev.next = afterNode;
+            curNode.next = prev;
+            prevv = prev;
+            prev = afterNode;
+            if (prev != null) {
+                curNode = prev.next;
+            } else {
+                break;
+            }
+        }
+        return head;
+    }
+
+    public static ListNode reverseListNode(ListNode root) {
+        if (root == null) return null;
+        if (root.next == null) return root;
+        ListNode curNode = root.next;
+        root.next = reverseList(curNode.next);
+        curNode.next = root;
+        return curNode;
+    }
+
+
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(2);
+        ListNode l3 = new ListNode(3);
+        ListNode l4 = new ListNode(4);
+        ListNode l5 = new ListNode(5);
+//        ListNode l6 = new ListNode(6);
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+        l4.next = l5;
+//        l5.next = l6;
+        ListNode node = reverseListNode(l1);
+        while (node != null) {
+            System.out.print(node.val + "->");
+            node = node.next;
+        }
     }
 }
