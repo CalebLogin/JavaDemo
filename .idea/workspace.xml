@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo58_I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo58_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo59_I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo59_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo57_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo57_II.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +174,7 @@
       <workItem from="1615894250555" duration="2858000" />
       <workItem from="1615901321419" duration="5407000" />
       <workItem from="1615942327842" duration="226000" />
-      <workItem from="1615988516108" duration="4047000" />
+      <workItem from="1615988516108" duration="4358000" />
     </task>
     <servers />
   </component>
