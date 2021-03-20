@@ -1,7 +1,5 @@
 package com.eric.offerdemo;
 
-import sun.jvm.hotspot.utilities.CPPExpressions;
-
 /**
  * 数组中出现次数超过一半的数字
  * <p>
