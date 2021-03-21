@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo64.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo26.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo36.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo39.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/META-INF/JianZhiOffer.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo36.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo36.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo39.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo39.class" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eric/juc/FizzBuzzExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Cupboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Cupboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/StaticInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/StaticInitialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Tableware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Tableware.class" afterDir="false" />
->>>>>>> Stashed changes
     </list>
+    <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1kcyfKT0DWMH5JvyJdSGhQx4Zwm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,12 +48,6 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-<<<<<<< Updated upstream
-  <component name="RunManager" selected="Application.OfferDemo64">
-    <configuration name="OfferDemo51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo51" />
-      <module name="JianZhiOffer" />
-=======
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -88,7 +64,6 @@
     <configuration name="FizzBuzzExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.juc.FizzBuzzExample" />
       <module name="JavaDemo" />
->>>>>>> Stashed changes
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.juc.*" />
@@ -119,13 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
-    <configuration name="OfferDemo63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo63" />
-=======
     <configuration name="OfferDemo60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo60" />
->>>>>>> Stashed changes
       <module name="JianZhiOffer" />
       <extension name="coverage">
         <pattern>
@@ -137,13 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< Updated upstream
-    <configuration name="OfferDemo64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo64" />
-=======
     <configuration name="OfferDemo62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo62" />
->>>>>>> Stashed changes
       <module name="JianZhiOffer" />
       <extension name="coverage">
         <pattern>
@@ -151,32 +116,41 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferDemo63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo63" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferDemo64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo64" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< Updated upstream
         <item itemvalue="Application.OfferDemo64" />
         <item itemvalue="Application.OfferDemo63" />
-=======
         <item itemvalue="Application.OfferDemo62" />
         <item itemvalue="Application.FizzBuzzExample" />
->>>>>>> Stashed changes
         <item itemvalue="Application.OfferDemo60" />
         <item itemvalue="Application.OfferDemo56_II" />
-        <item itemvalue="Application.OfferDemo51" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="" />
+      <changelist id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
       <created>1606014275345</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -218,28 +192,103 @@
       <workItem from="1615901321419" duration="5407000" />
       <workItem from="1615942327842" duration="226000" />
       <workItem from="1615988516108" duration="17297000" />
-<<<<<<< Updated upstream
       <workItem from="1616253045318" duration="1466000" />
       <workItem from="1616254543267" duration="1958000" />
-=======
       <workItem from="1616241320692" duration="6100000" />
->>>>>>> Stashed changes
+      <workItem from="1616307031988" duration="578000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
+      <created>1616307487634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616307487635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/hanzhigang/IdeaProjects/JavaDemo/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+      </set>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819" />
   </component>
 </project>
