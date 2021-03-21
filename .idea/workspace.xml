@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo63.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo64.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -12,6 +13,17 @@
       <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo26.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo36.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo36.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo39.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo39.class" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo61.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo63.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eric/juc/FizzBuzzExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Cupboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Cupboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/StaticInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/StaticInitialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Tableware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/java/Tableware.class" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +66,32 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.OfferDemo64">
     <configuration name="OfferDemo51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo51" />
       <module name="JianZhiOffer" />
+=======
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OfferDemo62">
+    <configuration name="FizzBuzzExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.juc.FizzBuzzExample" />
+      <module name="JavaDemo" />
+>>>>>>> Stashed changes
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eric.offerdemo.*" />
+          <option name="PATTERN" value="com.eric.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="OfferDemo63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo63" />
+=======
+    <configuration name="OfferDemo60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo60" />
+>>>>>>> Stashed changes
       <module name="JianZhiOffer" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="OfferDemo64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo64" />
+=======
+    <configuration name="OfferDemo62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo62" />
+>>>>>>> Stashed changes
       <module name="JianZhiOffer" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +157,13 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Application.OfferDemo64" />
         <item itemvalue="Application.OfferDemo63" />
+=======
+        <item itemvalue="Application.OfferDemo62" />
+        <item itemvalue="Application.FizzBuzzExample" />
+>>>>>>> Stashed changes
         <item itemvalue="Application.OfferDemo60" />
         <item itemvalue="Application.OfferDemo56_II" />
         <item itemvalue="Application.OfferDemo51" />
@@ -172,8 +218,12 @@
       <workItem from="1615901321419" duration="5407000" />
       <workItem from="1615942327842" duration="226000" />
       <workItem from="1615988516108" duration="17297000" />
+<<<<<<< Updated upstream
       <workItem from="1616253045318" duration="1466000" />
       <workItem from="1616254543267" duration="1958000" />
+=======
+      <workItem from="1616241320692" duration="6100000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

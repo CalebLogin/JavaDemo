@@ -3,6 +3,7 @@ package com.eric.offerdemo;
 /**
  * 股票的最大利润
  * 假设把某股票的价格按照时间先后顺序存储在数组中，请问买卖该股票一次可能获得的最大利润是多少？
+<<<<<<< Updated upstream
  * 思路1：动态规划
  */
 public class OfferDemo63 {
@@ -31,4 +32,7 @@ public class OfferDemo63 {
         int[] res = new int[]{7,6,5,3,2,1};
         System.out.println(maxProfit(res));
     }
+=======
+public class OfferDemo63 {
+>>>>>>> Stashed changes
 }
