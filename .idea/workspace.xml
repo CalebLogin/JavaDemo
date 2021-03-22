@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo68_I.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo62.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo62.class" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OfferDemo62">
+  <component name="RunManager" selected="Application.OfferDemo67">
     <configuration name="FizzBuzzExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.juc.FizzBuzzExample" />
       <module name="JavaDemo" />
@@ -70,26 +75,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OfferDemo56_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo56_II" />
-      <module name="JianZhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.offerdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OfferDemo60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo60" />
-      <module name="JianZhiOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,14 +117,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OfferDemo67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo67" />
+      <module name="JianZhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.offerdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FizzBuzzExample" />
+      <item itemvalue="Application.OfferDemo62" />
+      <item itemvalue="Application.OfferDemo63" />
+      <item itemvalue="Application.OfferDemo64" />
+      <item itemvalue="Application.OfferDemo67" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OfferDemo67" />
         <item itemvalue="Application.OfferDemo64" />
         <item itemvalue="Application.OfferDemo63" />
         <item itemvalue="Application.OfferDemo62" />
         <item itemvalue="Application.FizzBuzzExample" />
-        <item itemvalue="Application.OfferDemo60" />
-        <item itemvalue="Application.OfferDemo56_II" />
       </list>
     </recent_temporary>
   </component>

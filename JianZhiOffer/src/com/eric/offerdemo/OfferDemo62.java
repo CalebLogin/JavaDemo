@@ -34,7 +34,7 @@ public class OfferDemo62 {
 
     }
     public static int lastRemaining1(int n, int m) {
-
+        return 0;
 
     }
 
