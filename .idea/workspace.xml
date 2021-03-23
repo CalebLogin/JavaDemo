@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo67.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo68_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo68_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo62.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JianZhiOffer/com/eric/offerdemo/OfferDemo62.class" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,33 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OfferDemo67">
-    <configuration name="FizzBuzzExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.juc.FizzBuzzExample" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OfferDemo60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo60" />
-      <module name="JianZhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.offerdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OfferDemo68_II">
     <configuration name="OfferDemo62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo62" />
       <module name="JianZhiOffer" />
@@ -130,20 +100,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OfferDemo68_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.OfferDemo68_II" />
+      <module name="JianZhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.offerdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FizzBuzzExample" />
       <item itemvalue="Application.OfferDemo62" />
       <item itemvalue="Application.OfferDemo63" />
       <item itemvalue="Application.OfferDemo64" />
       <item itemvalue="Application.OfferDemo67" />
+      <item itemvalue="Application.OfferDemo68_II" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OfferDemo68_II" />
         <item itemvalue="Application.OfferDemo67" />
         <item itemvalue="Application.OfferDemo64" />
         <item itemvalue="Application.OfferDemo63" />
         <item itemvalue="Application.OfferDemo62" />
-        <item itemvalue="Application.FizzBuzzExample" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +183,7 @@
       <workItem from="1616254543267" duration="1958000" />
       <workItem from="1616241320692" duration="6100000" />
       <workItem from="1616307031988" duration="578000" />
+      <workItem from="1616424375410" duration="3068000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
