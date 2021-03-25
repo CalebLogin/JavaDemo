@@ -58,6 +58,52 @@ public class ReverseKGroup25 {
 
     }
 
+    public ListNode reverseKGroup1(ListNode head, int k) {
+
+        // 链表的长度
+        int len = 0;
+
+        // 当前节点、尾节点、后继节点
+        ListNode curNode = head;
+        ListNode tailNode = null;
+        ListNode nextNode = null;
+
+        // 前驱节点，指向头节点
+        ListNode prevNode = new ListNode(-1);
+        prevNode.next = head;
+        // 计算长度
+        while (curNode != null) {
+            ++len;
+            curNode = curNode.next;
+        }
+
+        ListNode prev = prevNode;
+        curNode = head;
+
+        for (int i = k; i < len; i += k) {
+            System.out.println(i);
+            int count = 0;
+            tailNode = prev;
+            while (count < k) {
+                tailNode = tailNode.next;
+                nextNode = tailNode.next;
+                ++count;
+            }
+
+            prev.next = reverseList(nextNode, curNode);
+            int size = 0;
+            while(size < k){
+                prev = prev.next;
+                size++;
+            }
+            curNode = nextNode;
+
+
+        }
+        return prevNode.next;
+
+    }
+
     /**
      * 翻转k个链表
      *
@@ -88,9 +134,9 @@ public class ReverseKGroup25 {
         listNode3.next = listNode4;
         listNode4.next = listNode5;
         ReverseKGroup25 reverseKGroup25 = new ReverseKGroup25();
-        ListNode temp = reverseKGroup25.reverseKGroup(listNode1, 3);
-        while(temp != null){
-            System.out.print(temp.val+"->");
+        ListNode temp = reverseKGroup25.reverseKGroup1(listNode1, 2);
+        while (temp != null) {
+            System.out.print(temp.val + "->");
             temp = temp.next;
         }
 
