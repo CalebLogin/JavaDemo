@@ -11,7 +11,7 @@ import java.util.Collections;
  * @author：hanzhigang
  * @Date : 2021/3/21 10:16 PM
  */
-public class OfferDemo66 {
+public class OfferDemo66_ {
 
     public int[] constructArr(int[] a) {
         // 数组a的长度

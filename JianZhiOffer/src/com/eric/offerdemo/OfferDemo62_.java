@@ -16,7 +16,7 @@ import java.util.List;
  * @author：hanzhigang
  * @Date : 2021/3/20 9:34 PM
  */
-public class OfferDemo62 {
+public class OfferDemo62_ {
     public static int lastRemaining(int n, int m) {
         m-=1;
         int curIndex = 0;   // 当前位置为0

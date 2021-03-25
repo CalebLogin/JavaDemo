@@ -14,7 +14,7 @@ import java.util.Arrays;
  * @author：hanzhigang
  * @Date : 2021/3/20 8:58 PM
  */
-public class OfferDemo61 {
+public class OfferDemo61_ {
 
     public boolean isStraight(int[] nums) {
         // 对数组进行排序
