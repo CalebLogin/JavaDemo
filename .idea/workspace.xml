@@ -2,9 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo61.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo61_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo66.java" beforeDir="false" afterPath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo66_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/review/HeapSortReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/JianZhiOffer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/AddStrings415.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/AddStrings415.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/BuildTree105_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/BuildTree105_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/FindKthLargest215.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/FindKthLargest215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/GetIntersectionNode160.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/GetIntersectionNode160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/IsValid20_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/IsValid20_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/LRUCache146.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/LRUCache146.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/LengthOfLongestSubstring3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/LengthOfLongestSubstring3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/LowestCommonAncestor236.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/LowestCommonAncestor236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/MaxProfit121.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/MaxProfit121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/MaxSubArray53.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/MaxSubArray53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/Merge88_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/Merge88_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/MergeTwoLists21.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/MergeTwoLists21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/ReverseKGroup25.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/ReverseKGroup25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/ReverseList206.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/ReverseList206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/RightSideView199.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/RightSideView199.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/SpiralOrder54_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/SpiralOrder54_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/ThreeSum15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/ThreeSum15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/TwoSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/TwoSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/codetop/ZigzagLevelOrder103.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/ZigzagLevelOrder103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/dynamicplanning/ClimbStairs70.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/dynamicplanning/ClimbStairs70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/dynamicplanning/FibonacciNumber509.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/dynamicplanning/FibonacciNumber509.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/dynamicplanning/MinCostClimbingStaris746.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/dynamicplanning/MinCostClimbingStaris746.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/dynamicplanning/UniquePathII63.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/dynamicplanning/UniquePathII63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/dynamicplanning/UniquePaths62.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/dynamicplanning/UniquePaths62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/alorithm/leetcode/Find132Pattern456.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Find132Pattern456.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo09.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo10_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo10_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo12.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo13.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo14_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo14_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo16.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo17.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo18.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo20.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo21.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo22.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo24.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo25.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo26.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo27.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo28.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo29.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo30.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo31.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo32_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo32_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo32_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo32_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo32_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo32_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo33.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo35.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo36.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo37.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo38.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo39.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo40.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo41.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo42.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo43.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo44.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo45.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo46.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo47.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo48.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo49.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo50.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo51.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo52.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo53.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo53_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo53_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo54.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo55_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo55_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo55_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo55_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo56_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo56_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo56_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo56_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo57.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo57.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo57_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo57_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo58_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo58_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo58_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo58_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo59_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo59_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo59_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo59_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo60.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo60.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo61_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo61_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo62_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo62_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo63.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo64.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo66_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo66_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo67.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo68_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo68_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/OfferDemo68_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/OfferDemo68_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JianZhiOffer/src/com/eric/offerdemo/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/offerdemo/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/Combinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/NextGreaterElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/NextGreaterElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/PartitionPalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/PartitionPalindromeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/BucketSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eric/datastructure/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/datastructure/sort/ShellSort.java" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +179,7 @@
   <component name="RunManager" selected="Application.Solution">
     <configuration name="FindKthLargest215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.FindKthLargest215" />
-      <module name="JianZhiOffer" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.alorithm.codetop.*" />
@@ -78,7 +192,7 @@
     </configuration>
     <configuration name="MinCostClimbingStaris746" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.dynamicplanning.MinCostClimbingStaris746" />
-      <module name="JianZhiOffer" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.alorithm.dynamicplanning.*" />
@@ -91,7 +205,7 @@
     </configuration>
     <configuration name="ReverseKGroup25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.ReverseKGroup25" />
-      <module name="JianZhiOffer" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.alorithm.codetop.*" />
@@ -104,7 +218,7 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.offerdemo.Solution" />
-      <module name="JianZhiOffer" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.offerdemo.*" />
@@ -117,7 +231,7 @@
     </configuration>
     <configuration name="UniquePaths62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.dynamicplanning.UniquePaths62" />
-      <module name="JianZhiOffer" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.alorithm.dynamicplanning.*" />
@@ -202,7 +316,8 @@
       <workItem from="1616503222270" duration="4309000" />
       <workItem from="1616590665111" duration="10188000" />
       <workItem from="1616632859433" duration="1535000" />
-      <workItem from="1616663295951" duration="15639000" />
+      <workItem from="1616663295951" duration="15675000" />
+      <workItem from="1616727537168" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
