@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/BuildTree105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/IsValid20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/BuildTree105_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/IsValid20_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/Merge88_.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/Merge88_.java" afterDir="false" />
->>>>>>> refs/remotes/origin/main
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,26 +49,25 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
     <configuration name="FindKthLargest215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.FindKthLargest215" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.alorithm.codetop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinCostClimbingStaris746" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.dynamicplanning.MinCostClimbingStaris746" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.dynamicplanning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,24 +114,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.test" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MinCostClimbingStaris746" />
       <item itemvalue="Application.UniquePaths62" />
       <item itemvalue="Application.ReverseKGroup25" />
       <item itemvalue="Application.FindKthLargest215" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.FindKthLargest215" />
         <item itemvalue="Application.ReverseKGroup25" />
         <item itemvalue="Application.UniquePaths62" />
-        <item itemvalue="Application.MinCostClimbingStaris746" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -271,7 +273,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -291,7 +295,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819" />
