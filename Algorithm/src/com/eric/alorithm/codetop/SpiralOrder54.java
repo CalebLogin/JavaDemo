@@ -10,7 +10,7 @@ import java.util.List;
  * @author：hanzhigang
  * @Date : 2021/3/25 11:51 PM
  */
-public class SpiralOrder54_ {
+public class SpiralOrder54 {
     public List<Integer> spiralOrder(int[][] matrix) {
 
         int rowIndex = 0;   // 当前访问的行下标
@@ -77,7 +77,7 @@ public class SpiralOrder54_ {
     }
 
     public static void main(String[] args) {
-        SpiralOrder54_ spiralOrder54_ = new SpiralOrder54_();
-        spiralOrder54_.spiralOrder(new int[][]{{1,2,3},{4,5,6},{7,8,9}});
+        SpiralOrder54 spiralOrder54 = new SpiralOrder54();
+        spiralOrder54.spiralOrder(new int[][]{{1,2,3},{4,5,6},{7,8,9}});
     }
 }

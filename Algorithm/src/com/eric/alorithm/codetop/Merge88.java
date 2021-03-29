@@ -9,7 +9,7 @@ package com.eric.alorithm.codetop;
  * @author：hanzhigang
  * @Date : 2021/3/25 11:54 PM
  */
-public class Merge88_ {
+public class Merge88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] numTotal = new int[m * n];
         int num1Index = 0, num2Index = 0, curIndex = 0;
@@ -20,14 +20,33 @@ public class Merge88_ {
                 numTotal[curIndex++] = nums2[num2Index++];
             }
         }
-        if (num1Index < m) {
+        while (num1Index < m) {
             numTotal[curIndex++] = nums1[num1Index++];
         }
-        if (num2Index < n) {
+        while (num2Index < n) {
             numTotal[curIndex++] = nums1[num2Index++];
         }
         for (int i = 0; i < m * n; i++) {
             nums1[i] = numTotal[i];
         }
     }
+
+    public void merge1(int[] nums1, int m, int[] nums2, int n) {
+        int num1Index = m - 1, num2Index = m - 1, curIndex = m + n - 1;
+        while (num1Index >= 0 && num2Index >= 0) {
+            if (nums1[num1Index] > nums2[num2Index]) {
+                nums1[curIndex--] = nums1[num1Index--];
+            } else {
+                nums1[curIndex--] = nums2[num2Index--];
+            }
+        }
+        while (num1Index >= 0) {
+            nums1[curIndex--] = nums1[num1Index--];
+        }
+        while (num2Index >= 0) {
+            nums1[curIndex--] = nums1[num2Index--];
+        }
+    }
+
+
 }

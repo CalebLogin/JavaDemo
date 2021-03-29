@@ -6,7 +6,7 @@ package com.eric.alorithm;
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println((10 | 120 | ));
+        System.out.println((10 | 120 | 11));
         System.out.println(10 | 120);
     }
 }
