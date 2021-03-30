@@ -1,6 +1,5 @@
-package com.eric.alorithm.codetop;
+package com.eric.alorithm.leetcode;
 
-import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
 

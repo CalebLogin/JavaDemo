@@ -1,4 +1,4 @@
-package com.eric.alorithm.codetop;
+package com.eric.alorithm.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;

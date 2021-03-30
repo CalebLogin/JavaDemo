@@ -1,4 +1,4 @@
-package com.eric.alorithm.codetop;
+package com.eric.alorithm.leetcode;
 
 /**
  * 合并两个有序数组

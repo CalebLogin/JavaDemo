@@ -1,4 +1,4 @@
-package com.eric.datastructure;
+package com.eric.alorithm.leetcode;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -12,7 +12,7 @@ import java.util.Stack;
  * @author：hanzhigang
  * @Date : 2021/3/7 11:10 AM
  */
-public class NextGreaterElements {
+public class NextGreaterElements503 {
     public int[] nextGreaterElements(int[] nums) {
         int numLength = nums.length;
 //      返回结果数组
@@ -36,7 +36,7 @@ public class NextGreaterElements {
     }
 
     public static void main(String[] args) {
-        NextGreaterElements nextGreaterElements = new NextGreaterElements();
+        NextGreaterElements503 nextGreaterElements = new NextGreaterElements503();
         System.out.println(nextGreaterElements.nextGreaterElements(new int[]{5,4,3,2,1})[2]);
     }
 }

@@ -1,4 +1,4 @@
-package com.eric.alorithm.codetop;
+package com.eric.alorithm.leetcode;
 
 /**
  * 最大子序和
