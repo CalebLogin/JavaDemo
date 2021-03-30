@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/LongestPalindrome5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/AddTwoNumbers2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/AddTwoNumbers2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/FindMedianSortedArrays4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/FindMedianSortedArrays4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/Merge88.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/Merge88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/SpiralOrder54.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/codetop/SpiralOrder54.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/SpiralOrder54_.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/SpiralOrder54_.class" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpiralOrder54_">
+  <component name="RunManager" selected="Application.FindMedianSortedArrays4">
     <configuration name="FindKthLargest215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.FindKthLargest215" />
       <module name="Algorithm" />
@@ -81,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseKGroup25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.ReverseKGroup25" />
+    <configuration name="FindMedianSortedArrays4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.FindMedianSortedArrays4" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseKGroup25" />
       <item itemvalue="Application.FindKthLargest215" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.SpiralOrder54_" />
+      <item itemvalue="Application.FindMedianSortedArrays4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMedianSortedArrays4" />
         <item itemvalue="Application.SpiralOrder54_" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.FindKthLargest215" />
-        <item itemvalue="Application.ReverseKGroup25" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +206,8 @@
       <workItem from="1616663295951" duration="15675000" />
       <workItem from="1616727537168" duration="1179000" />
       <workItem from="1616898559132" duration="484000" />
-      <workItem from="1616938203682" duration="8061000" />
+      <workItem from="1616938203682" duration="8352000" />
+      <workItem from="1617025168962" duration="5741000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
@@ -226,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616632902531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="auto commit">
+      <created>1616979310192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616979310192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
