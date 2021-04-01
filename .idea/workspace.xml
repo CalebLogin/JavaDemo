@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Convert6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Reverse7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/IsMatch10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/MaxArea11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eric/juc/InheritableThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eric/juc/ThreadLocalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/AddStrings415.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/AddTwoNumbers2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/BuildTree105.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/FindKthLargest215.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/FindMedianSortedArrays4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/GetIntersectionNode160.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/IsValid20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/LRUCache146.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/LengthOfLongestSubstring3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/LongestPalindrome5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/LowestCommonAncestor236.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/MaxProfit121.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/MaxSubArray53.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/Merge88.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/MergeTwoLists21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/ReverseKGroup25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/ReverseList206.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/RightSideView199.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/SpiralOrder54.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/ThreeSum15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/TwoSum1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/codetop/ZigzagLevelOrder103.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/datastructure/NextGreaterElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/MyAtoi8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/MyAtoi8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Reverse7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Reverse7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/Combinations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/NextGreaterElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/PartitionPalindromeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/BucketSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/datastructure/sort/ShellSort.class" beforeDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,13 +78,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="Convert6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.Convert6" />
-      <module name="Algorithm" />
+  <component name="RunManager" selected="Application.MaxArea11">
+    <configuration name="InheritableThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.juc.InheritableThreadLocalDemo" />
+      <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="PATTERN" value="com.eric.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,47 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianSortedArrays4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.FindMedianSortedArrays4" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindrome5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.LongestPalindrome5" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiralOrder54_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.codetop.SpiralOrder54_" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -154,20 +105,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxArea11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.MaxArea11" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAtoi8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.MyAtoi8" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.juc.ThreadLocalDemo" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.SpiralOrder54_" />
-      <item itemvalue="Application.FindMedianSortedArrays4" />
-      <item itemvalue="Application.LongestPalindrome5" />
-      <item itemvalue="Application.Convert6" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ThreadLocalDemo" />
+      <item itemvalue="Application.InheritableThreadLocalDemo" />
+      <item itemvalue="Application.MyAtoi8" />
+      <item itemvalue="Application.MaxArea11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Convert6" />
-        <item itemvalue="Application.LongestPalindrome5" />
-        <item itemvalue="Application.FindMedianSortedArrays4" />
-        <item itemvalue="Application.SpiralOrder54_" />
+        <item itemvalue="Application.MaxArea11" />
+        <item itemvalue="Application.MyAtoi8" />
+        <item itemvalue="Application.InheritableThreadLocalDemo" />
+        <item itemvalue="Application.ThreadLocalDemo" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +223,10 @@
       <workItem from="1616898559132" duration="484000" />
       <workItem from="1616938203682" duration="8352000" />
       <workItem from="1617025168962" duration="5824000" />
-      <workItem from="1617090767674" duration="8210000" />
+      <workItem from="1617090767674" duration="8366000" />
+      <workItem from="1617188523466" duration="7336000" />
+      <workItem from="1617201111902" duration="715000" />
+      <workItem from="1617254332803" duration="9839000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
