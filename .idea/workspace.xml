@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/FourSum18_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LetterCombinations17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/RemoveNthFromEnd19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/RomanToInt13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/ThreeSumClosest16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVMDemo/src/com/eric/jvmdemo/JVMMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVMDemo/src/com/eric/jvmdemo/JVMMemory.java" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +46,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -62,35 +69,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JVMMemory">
-    <configuration name="InheritableThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.juc.InheritableThreadLocalDemo" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JVMMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.jvmdemo.JVMMemory" />
-      <module name="JVMDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.jvmdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxArea11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.MaxArea11" />
+  <component name="RunManager" selected="Application.RemoveNthFromEnd19">
+    <configuration name="FourSum18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.FourSum18" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAtoi8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.MyAtoi8" />
+    <configuration name="LetterCombinations17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.LetterCombinations17" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +96,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.juc.ThreadLocalDemo" />
-      <module name="JavaDemo" />
+    <configuration name="RemoveNthFromEnd19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.RemoveNthFromEnd19" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eric.juc.*" />
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInt13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.RomanToInt13" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSumClosest16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.ThreeSumClosest16" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadLocalDemo" />
-      <item itemvalue="Application.InheritableThreadLocalDemo" />
-      <item itemvalue="Application.MyAtoi8" />
-      <item itemvalue="Application.MaxArea11" />
-      <item itemvalue="Application.JVMMemory" />
+      <item itemvalue="Application.RomanToInt13" />
+      <item itemvalue="Application.ThreeSumClosest16" />
+      <item itemvalue="Application.LetterCombinations17" />
+      <item itemvalue="Application.FourSum18" />
+      <item itemvalue="Application.RemoveNthFromEnd19" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JVMMemory" />
-        <item itemvalue="Application.MaxArea11" />
-        <item itemvalue="Application.MyAtoi8" />
-        <item itemvalue="Application.InheritableThreadLocalDemo" />
-        <item itemvalue="Application.ThreadLocalDemo" />
+        <item itemvalue="Application.RemoveNthFromEnd19" />
+        <item itemvalue="Application.FourSum18" />
+        <item itemvalue="Application.LetterCombinations17" />
+        <item itemvalue="Application.ThreeSumClosest16" />
+        <item itemvalue="Application.RomanToInt13" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +218,8 @@
       <workItem from="1617188523466" duration="7336000" />
       <workItem from="1617201111902" duration="715000" />
       <workItem from="1617254332803" duration="10024000" />
-      <workItem from="1617332874030" duration="4453000" />
+      <workItem from="1617332874030" duration="4550000" />
+      <workItem from="1617502502662" duration="15352000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
