@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/eric/io/FastCopyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eric/io/NIOClientMutliThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eric/io/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Divide29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/MergeKLists23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/RemoveDuplicates26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Search33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/StrStr28_.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/juc/InheritableThreadLocalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/eric/juc/InheritableThreadLocalDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/GenerateParenthesis22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/GenerateParenthesis22.class" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,26 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NIOClientMutliThreadExample">
-    <configuration name="GenerateParenthesis22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.GenerateParenthesis22" />
+  <component name="RunManager" selected="Application.Search33">
+    <configuration name="MergeKLists23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.MergeKLists23" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.io.NIOClient" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.io.NIOServer" />
-      <module name="JavaDemo" />
+    <configuration name="RemoveDuplicates26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.RemoveDuplicates26" />
+      <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eric.io.*" />
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +122,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthFromEnd19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.RemoveNthFromEnd19" />
+    <configuration name="Search33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.Search33" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrStr28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.StrStr28" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -147,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveNthFromEnd19" />
-      <item itemvalue="Application.GenerateParenthesis22" />
-      <item itemvalue="Application.NIOClient" />
-      <item itemvalue="Application.NIOServer" />
       <item itemvalue="Application.NIOClientMutliThreadExample" />
+      <item itemvalue="Application.RemoveDuplicates26" />
+      <item itemvalue="Application.StrStr28" />
+      <item itemvalue="Application.MergeKLists23" />
+      <item itemvalue="Application.Search33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Search33" />
+        <item itemvalue="Application.MergeKLists23" />
+        <item itemvalue="Application.StrStr28" />
+        <item itemvalue="Application.RemoveDuplicates26" />
         <item itemvalue="Application.NIOClientMutliThreadExample" />
-        <item itemvalue="Application.NIOServer" />
-        <item itemvalue="Application.NIOClient" />
-        <item itemvalue="Application.GenerateParenthesis22" />
-        <item itemvalue="Application.RemoveNthFromEnd19" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +232,7 @@
       <workItem from="1617201111902" duration="715000" />
       <workItem from="1617254332803" duration="10024000" />
       <workItem from="1617332874030" duration="4550000" />
-      <workItem from="1617502502662" duration="27032000" />
+      <workItem from="1617502502662" duration="37880000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
