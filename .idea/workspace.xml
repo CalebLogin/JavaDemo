@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SocketServer/src/main/java/SocketServer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServer/src/main/java/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServer/src/main/java/NettyServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/com/eric/io/FastCopyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/io/FastCopyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/com/eric/io/NIOClientMutliThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/io/NIOClientMutliThreadExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/com/eric/io/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/io/NIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/io/FastCopyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/com/eric/io/FastCopyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/io/NIOClientMutliThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/com/eric/io/NIOClientMutliThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/io/NIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/com/eric/io/NIOServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocketServer/SocketServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/SocketServer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocketServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketServer/src/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketServer/src/lib/log4j-api-2.14.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketServer/src/lib/log4j-core-2.14.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketServer/src/main/java/SocketServer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/src/main/java/SocketServer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocketServer/target/classes/SocketServer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/target/classes/SocketServer1.class" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Search33">
+  <component name="RunManager" selected="Application.NettyClient">
     <configuration name="MergeKLists23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.MergeKLists23" />
       <module name="Algorithm" />
@@ -114,28 +112,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOClientMutliThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.io.NIOClientMutliThreadExample" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NettyClient" />
+      <module name="SocketServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.RemoveDuplicates26" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NettyServer" />
+      <module name="SocketServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NIOClientMutliThreadExample" />
-      <item itemvalue="Application.RemoveDuplicates26" />
       <item itemvalue="Application.StrStr28" />
       <item itemvalue="Application.MergeKLists23" />
       <item itemvalue="Application.Search33" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.Search33" />
         <item itemvalue="Application.MergeKLists23" />
         <item itemvalue="Application.StrStr28" />
-        <item itemvalue="Application.RemoveDuplicates26" />
-        <item itemvalue="Application.NIOClientMutliThreadExample" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +236,7 @@
       <workItem from="1617201111902" duration="715000" />
       <workItem from="1617254332803" duration="10024000" />
       <workItem from="1617332874030" duration="4550000" />
-      <workItem from="1617502502662" duration="45225000" />
+      <workItem from="1617502502662" duration="48736000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
