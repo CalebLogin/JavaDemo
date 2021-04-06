@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SocketServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eric/io/SocketServer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServer/src/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServer/src/lib/log4j-api-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServer/src/lib/log4j-core-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServer/src/main/java/SocketServer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocketServer/SocketServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/SocketServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocketServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/pom.xml" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +47,13 @@
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1kcyfKT0DWMH5JvyJdSGhQx4Zwm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,12 +68,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39770114" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Java/src" />
+      <recent name="$PROJECT_DIR$/Java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eric.offerdemo" />
     </key>
@@ -229,7 +247,7 @@
       <workItem from="1617201111902" duration="715000" />
       <workItem from="1617254332803" duration="10024000" />
       <workItem from="1617332874030" duration="4550000" />
-      <workItem from="1617502502662" duration="38876000" />
+      <workItem from="1617502502662" duration="40236000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
