@@ -1,7 +1,5 @@
 package com.eric.java;
 
-import javax.xml.bind.SchemaOutputResolver;
-
 /**
  * @author：hanzhigang
  * @Date : 2021/3/14 2:41 PM
