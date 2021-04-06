@@ -32,13 +32,13 @@ public class Search33 {
             if (nums[mid] == target) {
                 return mid;
             }
-            if (nums[0] <= nums[mid]) {
+            if (nums[0] <= nums[mid]) { // 说明还在升序范围内
                 if (target >= nums[0] && target < nums[mid]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;
                 }
-            } else {
+            } else {    // 不在升序队列中，旋转的数组被包含在里面
                 if (target <= nums[nums.length - 1] && nums[mid] < target) {
                     left = mid + 1;
                 } else {

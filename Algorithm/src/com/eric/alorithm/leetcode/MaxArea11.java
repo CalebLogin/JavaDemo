@@ -17,6 +17,7 @@ public class MaxArea11 {
         while(left < right){
             cur = Math.min(height[left],height[right]) * (right-left);
             max = Math.max(cur,max);
+            // 移动高度小的一边
             if(height[left] > height[right]){
                 right--;
             }else{

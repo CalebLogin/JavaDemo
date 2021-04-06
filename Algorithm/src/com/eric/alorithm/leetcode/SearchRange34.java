@@ -10,6 +10,13 @@ package com.eric.alorithm.leetcode;
  * @Date : 2021/4/6 7:40 PM
  */
 public class SearchRange34 {
+
+    /**
+     * 二分查找的想法，找到target，前后遍历
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] searchRange(int[] nums, int target) {
         int startIndex = -1;
         int endIndex = -1;
