@@ -38,6 +38,5 @@ public class Trap42_ {
         int[] res = new int[]{9,6,8,8,5,6,3};
         Trap42_ trap42 = new Trap42_();
         System.out.println(trap42.trap(res));
-
     }
 }
