@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/JVMDemo/JVMDemo.iml" filepath="$PROJECT_DIR$/JVMDemo/JVMDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDemo.iml" filepath="$PROJECT_DIR$/JavaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyExample/NettyExample.iml" filepath="$PROJECT_DIR$/NettyExample/NettyExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketServer/SocketServer.iml" filepath="$PROJECT_DIR$/SocketServer/SocketServer.iml" />
     </modules>
   </component>

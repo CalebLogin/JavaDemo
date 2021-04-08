@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SocketServer/pom.xml" />
+        <option value="$PROJECT_DIR$/NettyExample/pom.xml" />
       </list>
     </option>
   </component>
