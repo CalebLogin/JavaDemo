@@ -4,17 +4,31 @@ import java.util.*;
  * @author：hanzhigang
  * @Date : 2021/4/4 10:22 AM
  */
-public class Main {
+public class Main1 {
 
     public static void main(String[] args) {
-        Main main = new Main();
+        Main1 main = new Main1();
         System.out.println(main.fx());
     }
 
 
-    public int TotalCandy(){
+    public static void stu() {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+        for (int i = 0; i < t; i++) {
+            int n = sc.nextInt();
+            for (int j = 0; j < n; j++) {
+
+            }
+        }
+
+    }
+
+
+    public int TotalCandy() {
         Scanner scanner = new Scanner(System.in);
-        int[] a,b;
+        int[] a, b;
         int aSize = scanner.nextInt();
         int bSize = scanner.nextInt();
         a = new int[aSize];
@@ -22,10 +36,10 @@ public class Main {
 //        String strA = scanner.next();
 //        String[] aTemp = scanner.next().split(",");
 //        String[] bTemp = scanner.next().split(",");
-        for(int i = 0;i<aSize;i++){
+        for (int i = 0; i < aSize; i++) {
             a[i] = scanner.nextInt();
         }
-        for(int i= 0;i<bSize;i++){
+        for (int i = 0; i < bSize; i++) {
             b[i] = scanner.nextInt();
         }
 
@@ -33,11 +47,11 @@ public class Main {
 
     }
 
-    public int maxSize(int[] a){
-        int size = 0,maxSize = 0;
-        for(int i = 0;i<a.length;i++){
+    public int maxSize(int[] a) {
+        int size = 0, maxSize = 0;
+        for (int i = 0; i < a.length; i++) {
             size += a[i];
-            maxSize = Math.max(size,maxSize);
+            maxSize = Math.max(size, maxSize);
         }
         return maxSize;
     }
