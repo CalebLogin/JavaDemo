@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/JavaDemo.iml" filepath="$PROJECT_DIR$/JavaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyExample/NettyExample.iml" filepath="$PROJECT_DIR$/NettyExample/NettyExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketServer/SocketServer.iml" filepath="$PROJECT_DIR$/SocketServer/SocketServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyExample/client/client.iml" filepath="$PROJECT_DIR$/NettyExample/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyExample/server/server.iml" filepath="$PROJECT_DIR$/NettyExample/server/server.iml" />
     </modules>
   </component>
 </project>

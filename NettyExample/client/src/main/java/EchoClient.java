@@ -1,5 +1,3 @@
-package com.eric.example1;
-
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -46,6 +44,16 @@ public class EchoClient {
         } finally {
             group.shutdownGracefully().sync();
         }
+    }
 
+    public static void main(String[] args) throws InterruptedException {
+        if (args.length != 2) {
+            System.err.println("Usage" + EchoClient.class.getSimpleName() + " <host> <port>");
+            return;
+        }
+
+        final String host = args[0];
+        final int port = Integer.parseInt(args[1]);
+        new EchoClient(host,port).start();
     }
 }
