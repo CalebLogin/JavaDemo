@@ -5,6 +5,7 @@ import com.eric.offerdemo.TreeNode;
 /**
  * 从前序与中序遍历序列构造二叉树
  * 根据一棵树的前序遍历与中序遍历构造二叉树。
+ *
  * @author：hanzhigang
  * @Date : 2021/3/25 11:47 PM
  */
@@ -12,9 +13,10 @@ public class BuildTree105 {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
 
-        return bulidTreeHelper(preorder,inorder,0,preorder.length-1,0,inorder.length-1);
+        return buildTreeHelper(preorder, inorder, 0, preorder.length - 1, 0, inorder.length - 1);
     }
-    public TreeNode bulidTreeHelper(int[] preorder,int[] inorder,int preStart,int preEnd,int inStart,int inEnd){
+
+    public TreeNode buildTreeHelper(int[] preorder,int[] inorder,int preStart,int preEnd,int inStart,int inEnd){
         if(preStart > preEnd){
             return null;
         }
@@ -31,8 +33,22 @@ public class BuildTree105 {
                 break;
             }
         }
-        root.left = bulidTreeHelper(preorder,inorder,preStart+1,preStart+i-inStart,inStart,i-1);
-        root.right = bulidTreeHelper(preorder,inorder,preStart+i-inStart+1,preEnd,i+1,inEnd);
+        root.left = buildTreeHelper(preorder,inorder,preStart+1,preStart+i-inStart,inStart,i-1);
+        root.right = buildTreeHelper(preorder,inorder,preStart+i-inStart+1,preEnd,i+1,inEnd);
         return root;
     }
+
+    private TreeNode buildTreeHelper1(int[] preorder, int[] inorder, int prel, int prer, int inl, int inr) {
+        if (inl > inr) {
+            return null;
+        }
+        TreeNode node;
+        int i;
+        for (i = 0; i < inr - inl && inorder[i + inl] != preorder[prel]; i++) ;
+        node = new TreeNode(inorder[inl + i]);
+        node.left = buildTreeHelper1(preorder, inorder, prel + 1, prel + i - 1, inl, inl + i - 1);
+        node.right = buildTreeHelper1(preorder, inorder, prel + i + 1, prer, inl + i + 1, inr);
+        return node;
+    }
+
 }
