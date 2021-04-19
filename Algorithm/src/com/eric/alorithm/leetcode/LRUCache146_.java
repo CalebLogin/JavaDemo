@@ -1,6 +1,7 @@
 package com.eric.alorithm.leetcode;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -18,8 +19,24 @@ import java.util.Map;
  * @author：hanzhigang
  * @Date : 2021/3/25 8:30 PM
  */
-public class LRUCache146 {
+public class LRUCache146_ extends LinkedHashMap<Integer, Integer> {
+    private int capacity;
+    public LRUCache146_(int capacity) {
+        this.capacity = capacity;
+    }
 
+    public int get(int key) {
+        return super.getOrDefault(key,-1);
+    }
+
+    public void put(int key, int value) {
+       super.put(key,value);
+    }
+
+    @Override
+    protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
+        return size() > capacity;
+    }
 }
 
 class LRUCache {
