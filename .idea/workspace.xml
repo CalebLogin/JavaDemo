@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CopyRandomList138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/review/NumDecodings91.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CanCompleteCircuit134.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CanCompleteCircuit134.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Partition131.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Partition131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/SingleNumber136.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/SingleNumber136.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Partition131.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Partition131.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Solve130.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Solve130.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyExample/NettyExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NettyExample/NettyExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocketServer/SocketServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/SocketServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/NumDecodings91.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/NumDecodings91.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Solve130.class" beforeDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,10 +70,10 @@
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1kcyfKT0DWMH5JvyJdSGhQx4Zwm" />
@@ -91,21 +116,9 @@
       <recent name="$PROJECT_DIR$/Java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SingleNumber136">
-    <configuration name="CanCompleteCircuit134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.CanCompleteCircuit134" />
+  <component name="RunManager" selected="Application.NumDecodings91 (1)">
+    <configuration name="IsPalindrome125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.IsPalindrome125" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.SingleNumber136" />
+    <configuration name="NumDecodings91 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.NumDecodings91" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -156,7 +169,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solve130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NumDecodings91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.review.NumDecodings91" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.alorithm.review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solve130" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.Solve130" />
       <module name="Algorithm" />
       <extension name="coverage">
@@ -169,24 +195,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Solve130" />
+      <item itemvalue="Application.IsPalindrome125" />
       <item itemvalue="Application.LadderLength127" />
       <item itemvalue="Application.Main5" />
-      <item itemvalue="Application.Solve130" />
-      <item itemvalue="Application.CanCompleteCircuit134" />
-      <item itemvalue="Application.SingleNumber136" />
+      <item itemvalue="Application.NumDecodings91" />
+      <item itemvalue="Application.NumDecodings91 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleNumber136" />
-        <item itemvalue="Application.CanCompleteCircuit134" />
-        <item itemvalue="Application.Solve130" />
+        <item itemvalue="Application.NumDecodings91 (1)" />
+        <item itemvalue="Application.NumDecodings91" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.LadderLength127" />
+        <item itemvalue="Application.IsPalindrome125" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -264,8 +302,10 @@
       <workItem from="1618189194457" duration="23518000" />
       <workItem from="1618297198936" duration="33035000" />
       <workItem from="1618627438855" duration="18920000" />
-      <workItem from="1618830639530" duration="11840000" />
-      <workItem from="1618999132662" duration="5929000" />
+      <workItem from="1618830639530" duration="10827000" />
+      <workItem from="1618986248564" duration="2911000" />
+      <workItem from="1618998989157" duration="1091000" />
+      <workItem from="1619094428034" duration="3636000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
@@ -292,7 +332,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -342,9 +382,7 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -364,10 +402,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819" />
     <MESSAGE value="auto commit" />
     <option name="LAST_COMMIT_MESSAGE" value="auto commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1110" y="469" key="FileChooserDialogImpl" timestamp="1619094972148">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1110" y="469" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1619094972148" />
+    <state width="1226" height="387" key="GridCell.Tab.0.bottom" timestamp="1619099101787">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1226" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
+    <state width="1226" height="387" key="GridCell.Tab.0.center" timestamp="1619099101787">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1226" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
+    <state width="1226" height="387" key="GridCell.Tab.0.left" timestamp="1619099101787">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1226" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
+    <state width="1226" height="387" key="GridCell.Tab.0.right" timestamp="1619099101787">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1226" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
+    <state x="478" y="318" key="SettingsEditor" timestamp="1619098306634">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="478" y="318" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1619098306634" />
   </component>
 </project>

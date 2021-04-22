@@ -72,7 +72,7 @@ public class NumDecodings91 {
 
     public static void main(String[] args) {
         NumDecodings91 numDecodings91 = new NumDecodings91();
-        System.out.println(numDecodings91.numDecodings1("1123"));
+        System.out.println(numDecodings91.numDecodings1("228"));
     }
 
 
