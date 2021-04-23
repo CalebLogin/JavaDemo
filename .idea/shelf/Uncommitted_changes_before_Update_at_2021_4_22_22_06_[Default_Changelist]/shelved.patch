@@ -1,0 +1,520 @@
+Index: Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.eric.alorithm.leetcode;\r\n\r\nimport java.time.temporal.Temporal;\r\n\r\n/**\r\n * 解码方法\r\n * 一条包含字母 A-Z 的消息通过以下映射进行了 编码 ：\r\n * 'A' -> 1\r\n * 'B' -> 2\r\n * ...\r\n * 'Z' -> 26\r\n * 要 解码 已编码的消息，所有数字必须基于上述映射的方法，反向映射回字母（可能有多种方法）。\r\n * 例如，\"111\" 可以将 \"1\" 中的每个 \"1\" 映射为 \"A\" ，从而得到 \"AAA\" ，或者可以将 \"11\" 和 \"1\"（分别为 \"K\" 和 \"A\" ）映射为 \"KA\" 。\r\n * 注意，\"06\" 不能映射为 \"F\" ，因为 \"6\" 和 \"06\" 不同。\r\n * 给你一个只含数字的 非空 字符串 num ，请计算并返回 解码 方法的 总数 。\r\n * 题目数据保证答案肯定是一个 32 位 的整数。\r\n * <p>\r\n * 思路：动态规划\r\n *\r\n * @author：hanzhigang\r\n * @Date : 2021/4/14 7:14 PM\r\n */\r\npublic class NumDecodings91 {\r\n\r\n    public int numDecodings(String s) {\r\n        if (s.charAt(0) == '0') {\r\n            return 0;\r\n        }\r\n        int curr = 1, prev = 1; // dp[0] = 1,dp[-1] = 1\r\n        for (int i = 1; i < s.length(); i++) {\r\n            int tmp = curr;\r\n            if (s.charAt(i) == '0') {\r\n                if (s.charAt(i - 1) - '0' == 1 || s.charAt(i - 1) - '0' == 2) {\r\n                    curr = prev;\r\n                } else {\r\n                    return 0;\r\n                }\r\n            } else {\r\n                if (s.charAt(i - 1) == '1' || s.charAt(i - 1) == '2' && s.charAt(i) - '0' >= 1 && s.charAt(i) - '0' <= 6) {\r\n                    curr += prev;\r\n                }\r\n            }\r\n            prev = tmp;\r\n        }\r\n\r\n        return curr;\r\n    }\r\n\r\n    public int numDecodings1(String s) {\r\n        int n = s.length();\r\n        int[] dp = new int[n];//到当前数字时的解码种数\r\n        dp[0] = 1;\r\n        if (s.charAt(0) == '0')//如果第一个字母是0，无法解码\r\n            return 0;\r\n        for (int i = 1; i < n; i++) {\r\n            if (s.charAt(i) == '0') {\r\n                if (s.charAt(i - 1) == '1' || s.charAt(i - 1) == '2') { // 0出现在1位置上，只有一种解码方式,否则等于dp[i-2]\r\n                    dp[i] = i == 1 ? 1 : dp[i - 2];\r\n                } else {    // 不符合条件，返回0\r\n                    return 0;\r\n                }\r\n            } else {\r\n                if (s.charAt(i - 1) == '1' || s.charAt(i-1) == '2' && s.charAt(i) - '0' > 0 && s.charAt(i) - '0' < 7) {   // 如果可以和前一个组成\r\n                    dp[i] = i == 1 ? dp[i - 1] + 1 : dp[i - 1] + dp[i - 2]; // 如果i在1位置上，则等于dp[i-1] + 1，否则等于dp[i-1] + dp[i-2]\r\n                } else {\r\n                    dp[i] = dp[i - 1];\r\n                }\r\n            }\r\n        }\r\n        return dp[n - 1];\r\n    }\r\n\r\n    public static void main(String[] args) {\r\n        NumDecodings91 numDecodings91 = new NumDecodings91();\r\n        System.out.println(numDecodings91.numDecodings1(\"1123\"));\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java	(revision 6427071b6b674eff04eae0148266ca9373158167)
++++ Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java	(date 1619098951623)
+@@ -72,7 +72,7 @@
+ 
+     public static void main(String[] args) {
+         NumDecodings91 numDecodings91 = new NumDecodings91();
+-        System.out.println(numDecodings91.numDecodings1("1123"));
++        System.out.println(numDecodings91.numDecodings1("228"));
+     }
+ 
+ }
+Index: SocketServer/SocketServer.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"Spring\" name=\"Spring\">\r\n      <configuration />\r\n    </facet>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_7\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.jboss.netty:netty:3.2.5.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: log4j:log4j:1.2.17\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.14.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-core:2.14.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-logging:commons-logging:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.alibaba.otter:canal.client:1.1.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.protobuf:protobuf-java:3.6.1\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.netty:netty-all:4.1.6.Final\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.zookeeper:zookeeper:3.4.5\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.101tec:zkclient:0.10\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-io:commons-io:2.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-lang:commons-lang:2.6\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-codec:commons-codec:1.9\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.alibaba:fastjson:1.2.58\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: com.google.guava:guava:18.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-core:1.1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-classic:1.1.3\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:jcl-over-slf4j:1.7.12\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.12\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-core:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-aop:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: aopalliance:aopalliance:1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-beans:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-context:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-expression:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-jdbc:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-tx:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-orm:3.2.18.RELEASE\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.rocketmq:rocketmq-client:4.5.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.rocketmq:rocketmq-common:4.5.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.commons:commons-lang3:3.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.rocketmq:rocketmq-acl:4.5.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.rocketmq:rocketmq-remoting:4.5.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.netty:netty-tcnative-boringssl-static:1.1.33.Fork26\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.rocketmq:rocketmq-logging:4.5.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.rocketmq:rocketmq-srvutil:4.5.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: commons-cli:commons-cli:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.yaml:snakeyaml:1.19\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SocketServer/SocketServer.iml	(revision 6427071b6b674eff04eae0148266ca9373158167)
++++ SocketServer/SocketServer.iml	(date 1618999413550)
+@@ -4,6 +4,15 @@
+     <facet type="Spring" name="Spring">
+       <configuration />
+     </facet>
++    <facet type="jpa" name="JPA">
++      <configuration>
++        <setting name="validation-enabled" value="true" />
++        <datasource-mapping>
++          <factory-entry name="SocketServer" />
++        </datasource-mapping>
++        <naming-strategy-map />
++      </configuration>
++    </facet>
+   </component>
+   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+     <output url="file://$MODULE_DIR$/target/classes" />
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jarRepositories.xml	(date 1618986338349)
++++ .idea/jarRepositories.xml	(date 1618986338349)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"133fcd3c-4081-40ca-bd48-73f9469be0d1\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Algorithm/src/Main5.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/IsPalindrome125.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LadderLength127_.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LongestConsecutive128.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Solve130.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LRUCache146.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LRUCache146_.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/LRUCache.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/LRUCache.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/LRUCache146.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/MaxProfit122.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/MaxProfit122.class\" afterDir=\"false\" />\r\n    </list>\r\n    <list id=\"815ac666-d01b-43c0-a8f2-21e036007032\" name=\"Delete .idea directory\" comment=\"\" />\r\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DatabaseView\">\r\n    <option name=\"SHOW_INTERMEDIATE\" value=\"true\" />\r\n    <option name=\"GROUP_DATA_SOURCES\" value=\"true\" />\r\n    <option name=\"GROUP_SCHEMA\" value=\"true\" />\r\n    <option name=\"GROUP_CONTENTS\" value=\"false\" />\r\n    <option name=\"SORT_POSITIONED\" value=\"false\" />\r\n    <option name=\"SHOW_EMPTY_GROUPS\" value=\"false\" />\r\n    <option name=\"AUTO_SCROLL_FROM_SOURCE\" value=\"false\" />\r\n    <option name=\"HIDDEN_KINDS\">\r\n      <set />\r\n    </option>\r\n    <expand />\r\n    <select />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"MIXED\" />\r\n    <option name=\"UPDATE_CHANGES_POLICY\" value=\"SHELVE\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"importAutomatically\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1kcyfKT0DWMH5JvyJdSGhQx4Zwm\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"Downloaded.Files.Path.Enabled\" value=\"false\" />\r\n    <property name=\"Repository.Attach.Annotations\" value=\"false\" />\r\n    <property name=\"Repository.Attach.JavaDocs\" value=\"false\" />\r\n    <property name=\"Repository.Attach.Sources\" value=\"false\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/NettyExample/server/src/main/java\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Libraries\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.39770114\" />\r\n    <property name=\"run.code.analysis.last.selected.profile\" value=\"pProject Default\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.github\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/NettyExample/server/src/main/java\" />\r\n      <recent name=\"$PROJECT_DIR$/src\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"\" />\r\n      <recent name=\"com.eric.offerdemo\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/Java/src\" />\r\n      <recent name=\"$PROJECT_DIR$/Java\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"ruleStates\">\r\n      <list>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\r\n        </RuleState>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\r\n        </RuleState>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Solve130\">\r\n    <configuration name=\"FindMedianSortedArrays4\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.eric.alorithm.leetcode.FindMedianSortedArrays4\" />\r\n      <module name=\"Algorithm\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.eric.alorithm.leetcode.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"IsPalindrome125\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.eric.alorithm.leetcode.IsPalindrome125\" />\r\n      <module name=\"Algorithm\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.eric.alorithm.leetcode.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LadderLength127\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.eric.alorithm.leetcode.LadderLength127\" />\r\n      <module name=\"Algorithm\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.eric.alorithm.leetcode.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main5\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main5\" />\r\n      <module name=\"Algorithm\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\".*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solve130\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.eric.alorithm.leetcode.Solve130\" />\r\n      <module name=\"Algorithm\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.eric.alorithm.leetcode.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.FindMedianSortedArrays4\" />\r\n      <item itemvalue=\"Application.IsPalindrome125\" />\r\n      <item itemvalue=\"Application.LadderLength127\" />\r\n      <item itemvalue=\"Application.Main5\" />\r\n      <item itemvalue=\"Application.Solve130\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Solve130\" />\r\n        <item itemvalue=\"Application.Main5\" />\r\n        <item itemvalue=\"Application.LadderLength127\" />\r\n        <item itemvalue=\"Application.IsPalindrome125\" />\r\n        <item itemvalue=\"Application.FindMedianSortedArrays4\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" BundledDictionaries=\"0\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" Dictionaries=\"0\" CorrectionsLimit=\"5\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"133fcd3c-4081-40ca-bd48-73f9469be0d1\" name=\"Default Changelist\" comment=\"\" />\r\n      <changelist id=\"815ac666-d01b-43c0-a8f2-21e036007032\" name=\"Delete .idea directory\" comment=\"\" />\r\n      <created>1606014275345</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1606014275345</updated>\r\n      <workItem from=\"1606014278383\" duration=\"1369000\" />\r\n      <workItem from=\"1606097040179\" duration=\"1425000\" />\r\n      <workItem from=\"1606492878115\" duration=\"209000\" />\r\n      <workItem from=\"1606664287810\" duration=\"5873000\" />\r\n      <workItem from=\"1608519912236\" duration=\"959000\" />\r\n      <workItem from=\"1608816850458\" duration=\"70000\" />\r\n      <workItem from=\"1608818549501\" duration=\"418000\" />\r\n      <workItem from=\"1610538708117\" duration=\"2211000\" />\r\n      <workItem from=\"1611392262828\" duration=\"4418000\" />\r\n      <workItem from=\"1611406846338\" duration=\"321000\" />\r\n      <workItem from=\"1611407180749\" duration=\"82000\" />\r\n      <workItem from=\"1611407275049\" duration=\"1281000\" />\r\n      <workItem from=\"1611475164810\" duration=\"2487000\" />\r\n      <workItem from=\"1613716242470\" duration=\"1247000\" />\r\n      <workItem from=\"1614132599479\" duration=\"8877000\" />\r\n      <workItem from=\"1614506254292\" duration=\"9480000\" />\r\n      <workItem from=\"1614561964486\" duration=\"9711000\" />\r\n      <workItem from=\"1614603622785\" duration=\"5035000\" />\r\n      <workItem from=\"1614647063296\" duration=\"35136000\" />\r\n      <workItem from=\"1614863299196\" duration=\"71000\" />\r\n      <workItem from=\"1614863549310\" duration=\"672000\" />\r\n      <workItem from=\"1614869968491\" duration=\"2267000\" />\r\n      <workItem from=\"1614910330991\" duration=\"7361000\" />\r\n      <workItem from=\"1615000738348\" duration=\"55977000\" />\r\n      <workItem from=\"1615427000642\" duration=\"3936000\" />\r\n      <workItem from=\"1615451339833\" duration=\"4092000\" />\r\n      <workItem from=\"1615464465540\" duration=\"11723000\" />\r\n      <workItem from=\"1615549103137\" duration=\"8857000\" />\r\n      <workItem from=\"1615621176560\" duration=\"1230000\" />\r\n      <workItem from=\"1615646811736\" duration=\"4197000\" />\r\n      <workItem from=\"1615703344565\" duration=\"2184000\" />\r\n      <workItem from=\"1615728774033\" duration=\"5231000\" />\r\n      <workItem from=\"1615813257471\" duration=\"5762000\" />\r\n      <workItem from=\"1615894250555\" duration=\"2858000\" />\r\n      <workItem from=\"1615901321419\" duration=\"5407000\" />\r\n      <workItem from=\"1615942327842\" duration=\"226000\" />\r\n      <workItem from=\"1615988516108\" duration=\"17297000\" />\r\n      <workItem from=\"1616253045318\" duration=\"1466000\" />\r\n      <workItem from=\"1616254543267\" duration=\"1958000\" />\r\n      <workItem from=\"1616241320692\" duration=\"6100000\" />\r\n      <workItem from=\"1616307031988\" duration=\"578000\" />\r\n      <workItem from=\"1616424375410\" duration=\"3068000\" />\r\n      <workItem from=\"1616503222270\" duration=\"4309000\" />\r\n      <workItem from=\"1616590665111\" duration=\"10188000\" />\r\n      <workItem from=\"1616632859433\" duration=\"1535000\" />\r\n      <workItem from=\"1616663295951\" duration=\"15675000\" />\r\n      <workItem from=\"1616727537168\" duration=\"1179000\" />\r\n      <workItem from=\"1616898559132\" duration=\"484000\" />\r\n      <workItem from=\"1616938203682\" duration=\"8352000\" />\r\n      <workItem from=\"1617025168962\" duration=\"5824000\" />\r\n      <workItem from=\"1617090767674\" duration=\"8366000\" />\r\n      <workItem from=\"1617188523466\" duration=\"7336000\" />\r\n      <workItem from=\"1617201111902\" duration=\"715000\" />\r\n      <workItem from=\"1617254332803\" duration=\"10024000\" />\r\n      <workItem from=\"1617332874030\" duration=\"4550000\" />\r\n      <workItem from=\"1617502502662\" duration=\"59084000\" />\r\n      <workItem from=\"1617793949414\" duration=\"15387000\" />\r\n      <workItem from=\"1617873852811\" duration=\"1286000\" />\r\n      <workItem from=\"1617937266811\" duration=\"3111000\" />\r\n      <workItem from=\"1617955768846\" duration=\"9889000\" />\r\n      <workItem from=\"1617975873847\" duration=\"2202000\" />\r\n      <workItem from=\"1618060297135\" duration=\"2721000\" />\r\n      <workItem from=\"1618106977586\" duration=\"5677000\" />\r\n      <workItem from=\"1618189194457\" duration=\"23518000\" />\r\n      <workItem from=\"1618297198936\" duration=\"33035000\" />\r\n      <workItem from=\"1618627438855\" duration=\"18920000\" />\r\n      <workItem from=\"1618830639530\" duration=\"10827000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819\">\r\n      <created>1616307487634</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1616307487635</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"auto commit\">\r\n      <created>1616632902531</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1616632902531</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"auto commit\">\r\n      <created>1616979310192</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1616979310192</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"1\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                  <entry key=\"structure\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"dir:/Users/hanzhigang/IdeaProjects/JavaDemo/.idea\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"2\">\r\n          <value>\r\n            <State>\r\n              <option name=\"SHOW_ONLY_AFFECTED_CHANGES\" value=\"true\" />\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"roots\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"$PROJECT_DIR$\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"COLUMN_ORDER\" />\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"origin/main\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819\" />\r\n    <MESSAGE value=\"auto commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"auto commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 6427071b6b674eff04eae0148266ca9373158167)
++++ .idea/workspace.xml	(date 1619100327407)
+@@ -1,20 +1,42 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="ALL" />
++  </component>
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/Algorithm/src/Main5.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/IsPalindrome125.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LadderLength127_.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LongestConsecutive128.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/Solve130.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CopyRandomList138.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/review/NumDecodings91.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LRUCache146.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/LRUCache146_.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/LRUCache.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/LRUCache146.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/MaxProfit122.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/MaxProfit122.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/NumDecodings91.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/NettyExample/NettyExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NettyExample/NettyExample.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SocketServer/SocketServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketServer/SocketServer.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/NumDecodings91.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/NumDecodings91.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Solve130.class" beforeDir="false" />
+     </list>
+     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
+-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -48,10 +70,10 @@
+     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+   </component>
+   <component name="MavenImportPreferences">
+-    <option name="importingSettings">
+-      <MavenImportingSettings>
+-        <option name="importAutomatically" value="true" />
+-      </MavenImportingSettings>
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
++      </MavenGeneralSettings>
+     </option>
+   </component>
+   <component name="ProjectId" id="1kcyfKT0DWMH5JvyJdSGhQx4Zwm" />
+@@ -75,7 +97,7 @@
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.39770114" />
+     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+-    <property name="settings.editor.selected.configurable" value="settings.github" />
++    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+@@ -94,21 +116,9 @@
+       <recent name="$PROJECT_DIR$/Java" />
+     </key>
+   </component>
+-  <component name="RunDashboard">
+-    <option name="ruleStates">
+-      <list>
+-        <RuleState>
+-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+-        </RuleState>
+-        <RuleState>
+-          <option name="name" value="StatusDashboardGroupingRule" />
+-        </RuleState>
+-      </list>
+-    </option>
+-  </component>
+-  <component name="RunManager" selected="Application.Solve130">
+-    <configuration name="FindMedianSortedArrays4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.FindMedianSortedArrays4" />
++  <component name="RunManager" selected="Application.NumDecodings91 (1)">
++    <configuration name="IsPalindrome125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.IsPalindrome125" />
+       <module name="Algorithm" />
+       <extension name="coverage">
+         <pattern>
+@@ -120,8 +130,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="IsPalindrome125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.IsPalindrome125" />
++    <configuration name="LadderLength127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.LadderLength127" />
+       <module name="Algorithm" />
+       <extension name="coverage">
+         <pattern>
+@@ -133,8 +143,21 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="LadderLength127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.LadderLength127" />
++    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main5" />
++      <module name="Algorithm" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value=".*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="NumDecodings91 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.NumDecodings91" />
+       <module name="Algorithm" />
+       <extension name="coverage">
+         <pattern>
+@@ -146,12 +169,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Main5" />
++    <configuration name="NumDecodings91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.review.NumDecodings91" />
+       <module name="Algorithm" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value=".*" />
++          <option name="PATTERN" value="com.eric.alorithm.review.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -159,7 +182,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Solve130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="Solve130" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.Solve130" />
+       <module name="Algorithm" />
+       <extension name="coverage">
+@@ -168,28 +191,40 @@
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
++      <option name="arquillianRunConfiguration">
++        <value>
++          <option name="containerStateName" value="" />
++        </value>
++      </option>
++      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <list>
+-      <item itemvalue="Application.FindMedianSortedArrays4" />
++      <item itemvalue="Application.Solve130" />
+       <item itemvalue="Application.IsPalindrome125" />
+       <item itemvalue="Application.LadderLength127" />
+       <item itemvalue="Application.Main5" />
+-      <item itemvalue="Application.Solve130" />
++      <item itemvalue="Application.NumDecodings91" />
++      <item itemvalue="Application.NumDecodings91 (1)" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Solve130" />
++        <item itemvalue="Application.NumDecodings91 (1)" />
++        <item itemvalue="Application.NumDecodings91" />
+         <item itemvalue="Application.Main5" />
+         <item itemvalue="Application.LadderLength127" />
+         <item itemvalue="Application.IsPalindrome125" />
+-        <item itemvalue="Application.FindMedianSortedArrays4" />
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+@@ -268,6 +303,9 @@
+       <workItem from="1618297198936" duration="33035000" />
+       <workItem from="1618627438855" duration="18920000" />
+       <workItem from="1618830639530" duration="10827000" />
++      <workItem from="1618986248564" duration="2911000" />
++      <workItem from="1618998989157" duration="1091000" />
++      <workItem from="1619094428034" duration="3636000" />
+     </task>
+     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
+       <created>1616307487634</created>
+@@ -294,7 +332,7 @@
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="1" />
++    <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+@@ -344,9 +382,7 @@
+         </entry>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="COLUMN_ORDER" />
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+@@ -366,10 +402,37 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819" />
+     <MESSAGE value="auto commit" />
+     <option name="LAST_COMMIT_MESSAGE" value="auto commit" />
+   </component>
++  <component name="WindowStateProjectService">
++    <state x="1110" y="469" key="FileChooserDialogImpl" timestamp="1619094972148">
++      <screen x="0" y="0" width="2560" height="1400" />
++    </state>
++    <state x="1110" y="469" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1619094972148" />
++    <state width="1226" height="387" key="GridCell.Tab.0.bottom" timestamp="1619099101787">
++      <screen x="0" y="0" width="2560" height="1400" />
++    </state>
++    <state width="1226" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
++    <state width="1226" height="387" key="GridCell.Tab.0.center" timestamp="1619099101787">
++      <screen x="0" y="0" width="2560" height="1400" />
++    </state>
++    <state width="1226" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
++    <state width="1226" height="387" key="GridCell.Tab.0.left" timestamp="1619099101787">
++      <screen x="0" y="0" width="2560" height="1400" />
++    </state>
++    <state width="1226" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
++    <state width="1226" height="387" key="GridCell.Tab.0.right" timestamp="1619099101787">
++      <screen x="0" y="0" width="2560" height="1400" />
++    </state>
++    <state width="1226" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619099101787" />
++    <state x="478" y="318" key="SettingsEditor" timestamp="1619098306634">
++      <screen x="0" y="0" width="2560" height="1400" />
++    </state>
++    <state x="478" y="318" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1619098306634" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: Algorithm/src/com/eric/alorithm/review/NumDecodings91.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Algorithm/src/com/eric/alorithm/review/NumDecodings91.java	(date 1619099047032)
++++ Algorithm/src/com/eric/alorithm/review/NumDecodings91.java	(date 1619099047032)
+@@ -0,0 +1,57 @@
++package com.eric.alorithm.review;
++
++/**
++ * 解码方法
++ * 一条包含字母 A-Z 的消息通过以下映射进行了 编码 ：
++ * <p>
++ * 'A' -> 1
++ * 'B' -> 2
++ * ...
++ * 'Z' -> 26
++ * 要 解码 已编码的消息，所有数字必须基于上述映射的方法，反向映射回字母（可能有多种方法）。例如，"11106" 可以映射为：
++ * "AAJF" ，将消息分组为 (1 1 10 6)
++ * "KJF" ，将消息分组为 (11 10 6)
++ * 注意，消息不能分组为  (1 11 06) ，因为 "06" 不能映射为 "F" ，这是由于 "6" 和 "06" 在映射中并不等价。
++ * 给你一个只含数字的 非空 字符串 s ，请计算并返回 解码 方法的 总数 。
++ * 题目数据保证答案肯定是一个 32 位 的整数。
++ *
++ * @author: hanzhigang
++ * @Date : 2021/4/22 21:31
++ */
++public class NumDecodings91 {
++    /**
++     * 使用动态规划的方法
++     *
++     * @param s
++     * @return
++     */
++    public int numDecodings(String s) {
++        char[] cs = s.toCharArray();
++        int n = s.length();
++        if (cs[0] == '0') {
++            return 0;
++        }
++        int curr = 1, prev = 1;
++        for (int i = 1; i < n; i++) {
++            int temp = curr;
++            if (cs[i] == '0') {
++                if (cs[i - 1] == '1' || cs[i - 1] == '2') {
++                    curr = prev;
++                } else {
++                    return 0;
++                }
++            } else {
++                if (cs[i - 1] == '1' || cs[i - 1] == '2' && cs[i] - '0' < 7) {
++                    curr = prev + curr;
++                }
++            }
++            prev = temp;
++        }
++        return curr;
++    }
++
++    public static void main(String[] args) {
++        NumDecodings91 numDecodings91 = new NumDecodings91();
++        System.out.println(numDecodings91.numDecodings("228"));
++    }
++}
+Index: Algorithm/src/com/eric/alorithm/leetcode/CopyRandomList138.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Algorithm/src/com/eric/alorithm/leetcode/CopyRandomList138.java	(date 1619100327314)
++++ Algorithm/src/com/eric/alorithm/leetcode/CopyRandomList138.java	(date 1619100327314)
+@@ -0,0 +1,71 @@
++package com.eric.alorithm.leetcode;
++
++import java.util.HashMap;
++import java.util.Map;
++
++/**
++ * 复制带随机指针的链表
++ * 给你一个长度为 n 的链表，每个节点包含一个额外增加的随机指针 random ，该指针可以指向链表中的任何节点或空节点。
++ * 构造这个链表的深拷贝。深拷贝应该正好由 n 个 全新 节点组成，其中每个新节点的值都设为其对应的原节点的值。
++ * 新节点的 next 指针和 random 指针也都应指向复制链表中的新节点，并使原链表和复制链表中的这些指针能够表示相同的链表状态。
++ * 复制链表中的指针都不应指向原链表中的节点 。
++ * 例如，如果原链表中有 X 和 Y 两个节点，其中 X.random --> Y 。那么在复制链表中对应的两个节点 x 和 y ，同样有 x.random --> y 。
++ * 返回复制链表的头节点。
++ * 用一个由n个节点组成的链表来表示输入/输出中的链表。每个节点用一个[val, random_index]表示：
++ * val：一个表示Node.val的整数。
++ * random_index：随机指针指向的节点索引（范围从0到n-1）；如果不指向任何节点，则为 null
++ * 你的代码 只 接受原链表的头节点 head 作为传入参数。
++ *
++ * @Date : 2021/4/22 21:45
++ */
++public class CopyRandomList138 {
++    /**
++     * 思路：使用hashmap
++     *
++     * @param head
++     * @return
++     */
++    public Node copyRandomList(Node head) {
++        // 如果头节点为空，返回null
++        if (head == null) {
++            return head;
++        }
++        Map<Node, Node> map = new HashMap<>();  // 定义hash表存放原节点与新节点的对应关系
++        Node newHead = new Node(head.val);  // 定义新的头节点
++        map.put(head,newHead);
++        Node newPrev = new Node(-1);  // 定义新链表的前驱节点
++        newPrev.next = newHead;
++
++        Node curNode = head.next;   // 定义原链表的遍历节点
++        Node curNewNode = newHead;
++        while (curNode != null) {
++            curNewNode.next = new Node(curNode.val);
++            curNewNode = curNewNode.next;
++            map.put(curNode, curNewNode);
++            curNode = curNode.next;
++        }
++
++        /**
++         * 通过便利将原节点的random与新节点的random对应起来
++         */
++        curNode = head;
++        while(curNode != null){
++            map.get(curNode).random = map.get(curNode.random);
++            curNode = curNode.next;
++        }
++
++        return newPrev.next;
++    }
++
++    class Node {
++        int val;
++        Node next;
++        Node random;
++
++        public Node(int val) {
++            this.val = val;
++            this.next = null;
++            this.random = null;
++        }
++    }
++}
+Index: NettyExample/NettyExample.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_1_8\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"jdk\" jdkName=\"1.8\" jdkType=\"JavaSDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"org.apache.maven.archetypes:maven-archetype-quickstart:1.4\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: io.netty:netty-all:4.1.63.Final\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- NettyExample/NettyExample.iml	(revision 6427071b6b674eff04eae0148266ca9373158167)
++++ NettyExample/NettyExample.iml	(date 1618986338307)
+@@ -9,7 +9,7 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+       <excludeFolder url="file://$MODULE_DIR$/target" />
+     </content>
+-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="org.apache.maven.archetypes:maven-archetype-quickstart:1.4" level="project" />
+     <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.63.Final" level="project" />
