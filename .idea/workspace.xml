@@ -23,11 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="auto commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/HasCycle141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/WordBreak140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSum39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSumII240.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSumIV377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/combinationSumIII216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/Solve130.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/WordBreak139.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/WordBreak139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/WordBreak139.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/WordBreak139.class" afterDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,21 +112,9 @@
       <recent name="$PROJECT_DIR$/Java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.WordBreak139">
-    <configuration name="LadderLength127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.LadderLength127" />
+  <component name="RunManager" selected="Application.CombinationSumII240">
+    <configuration name="CombinationSumII240" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.CombinationSumII240" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -149,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumDecodings91 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.NumDecodings91" />
+    <configuration name="NumDecodings91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.review.NumDecodings91" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
+          <option name="PATTERN" value="com.eric.alorithm.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +153,11 @@
       </method>
     </configuration>
     <configuration name="NumDecodings91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.review.NumDecodings91" />
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.NumDecodings91" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eric.alorithm.review.*" />
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,25 +191,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Solve130" />
-      <item itemvalue="Application.LadderLength127" />
       <item itemvalue="Application.Main5" />
       <item itemvalue="Application.NumDecodings91" />
       <item itemvalue="Application.NumDecodings91 (1)" />
       <item itemvalue="Application.WordBreak139" />
+      <item itemvalue="Application.CombinationSumII240" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSumII240" />
         <item itemvalue="Application.WordBreak139" />
         <item itemvalue="Application.NumDecodings91 (1)" />
         <item itemvalue="Application.NumDecodings91" />
         <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.LadderLength127" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -303,6 +304,7 @@
       <workItem from="1619094428034" duration="3892000" />
       <workItem from="1619156370236" duration="1930000" />
       <workItem from="1619181675197" duration="1807000" />
+      <workItem from="1619263044995" duration="7434000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
@@ -339,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619181702472</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="auto commit">
+      <created>1619260660430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619260660430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,9 +402,7 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -415,6 +422,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819" />
@@ -426,22 +434,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1110" y="469" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1619094972148" />
-    <state width="1438" height="387" key="GridCell.Tab.0.bottom" timestamp="1619183394752">
+    <state width="1226" height="387" key="GridCell.Tab.0.bottom" timestamp="1619274139879">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1438" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619183394752" />
-    <state width="1438" height="387" key="GridCell.Tab.0.center" timestamp="1619183394752">
+    <state width="1226" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619274139879" />
+    <state width="1226" height="387" key="GridCell.Tab.0.center" timestamp="1619274139879">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1438" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619183394752" />
-    <state width="1438" height="387" key="GridCell.Tab.0.left" timestamp="1619183394752">
+    <state width="1226" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619274139879" />
+    <state width="1226" height="387" key="GridCell.Tab.0.left" timestamp="1619274139879">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1438" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619183394752" />
-    <state width="1438" height="387" key="GridCell.Tab.0.right" timestamp="1619183394752">
+    <state width="1226" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619274139879" />
+    <state width="1226" height="387" key="GridCell.Tab.0.right" timestamp="1619274139879">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1438" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619183394752" />
+    <state width="1226" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619274139879" />
     <state x="227" y="81" key="MergeDialog" timestamp="1619100442032">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -454,17 +462,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1306" y="372" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619181707579" />
-    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619100369767">
+    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619260696015">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619100369767" />
+    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619260696015" />
     <state x="1373" y="100" width="1094" height="1200" key="dock-window-1" timestamp="1619160060348">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1373" y="100" width="1094" height="1200" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1619160060348" />
-    <state x="1499" y="312" width="840" height="1034" key="search.everywhere.popup" timestamp="1619156378623">
+    <state x="1499" y="312" width="840" height="1034" key="search.everywhere.popup" timestamp="1619261170347">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1499" y="312" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1619156378623" />
+    <state x="1499" y="312" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1619261170347" />
   </component>
 </project>
