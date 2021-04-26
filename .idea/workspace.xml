@@ -23,9 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133fcd3c-4081-40ca-bd48-73f9469be0d1" name="Default Changelist" comment="auto commit">
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/SortList148.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/com/eric/juc/ReentrantReadWriteLOckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_22_58__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_3_27_23_05__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSum39.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSum39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/combinationSumIII216.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSumIII216.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSumIV377.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/eric/alorithm/leetcode/CombinationSumIV377.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/CombinationSumII240.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/CombinationSumII240.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/CombinationSumIV377.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/CombinationSumIV377.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/eric/alorithm/leetcode/combinationSumIII216.class" beforeDir="false" />
     </list>
     <list id="815ac666-d01b-43c0-a8f2-21e036007032" name="Delete .idea directory" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +62,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
-    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -108,7 +118,7 @@
       <recent name="$PROJECT_DIR$/Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumII240">
+  <component name="RunManager" selected="Application.CombinationSumIV377">
     <configuration name="CombinationSumII240" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.CombinationSumII240" />
       <module name="Algorithm" />
@@ -122,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main5" />
+    <configuration name="CombinationSumIV377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.CombinationSumIV377" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.eric.alorithm.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +171,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReentrantReadWriteLOckExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eric.juc.ReentrantReadWriteLOckExample" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eric.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solve130" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eric.alorithm.leetcode.Solve130" />
       <module name="Algorithm" />
@@ -187,19 +210,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Solve130" />
-      <item itemvalue="Application.Main5" />
       <item itemvalue="Application.NumDecodings91" />
       <item itemvalue="Application.WordBreak139" />
       <item itemvalue="Application.CombinationSumII240" />
+      <item itemvalue="Application.ReentrantReadWriteLOckExample" />
+      <item itemvalue="Application.CombinationSumIV377" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSumIV377" />
+        <item itemvalue="Application.ReentrantReadWriteLOckExample" />
         <item itemvalue="Application.CombinationSumII240" />
         <item itemvalue="Application.WordBreak139" />
         <item itemvalue="Application.NumDecodings91" />
-        <item itemvalue="Application.Main5" />
       </list>
     </recent_temporary>
   </component>
@@ -289,6 +327,8 @@
       <workItem from="1619181675197" duration="1807000" />
       <workItem from="1619263044995" duration="7608000" />
       <workItem from="1619327910706" duration="930000" />
+      <workItem from="1619414854297" duration="1099000" />
+      <workItem from="1619437420017" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit c23d4819">
       <created>1616307487634</created>
@@ -421,50 +461,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="auto commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="398" y="344" key="#com.intellij.ide.util.MemberChooser" timestamp="1619415518184">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="398" y="344" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1619415518184" />
     <state x="1110" y="469" key="FileChooserDialogImpl" timestamp="1619094972148">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1110" y="469" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1619094972148" />
-    <state width="1226" height="387" key="GridCell.Tab.0.bottom" timestamp="1619313101752">
+    <state width="1584" height="373" key="GridCell.Tab.0.bottom" timestamp="1619442294695">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1226" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619313101752" />
-    <state width="1226" height="387" key="GridCell.Tab.0.center" timestamp="1619313101752">
+    <state width="1584" height="373" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1619442294695" />
+    <state width="1584" height="373" key="GridCell.Tab.0.center" timestamp="1619442294695">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1226" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619313101752" />
-    <state width="1226" height="387" key="GridCell.Tab.0.left" timestamp="1619313101752">
+    <state width="1584" height="373" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1619442294695" />
+    <state width="1584" height="373" key="GridCell.Tab.0.left" timestamp="1619442294695">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1226" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619313101752" />
-    <state width="1226" height="387" key="GridCell.Tab.0.right" timestamp="1619313101752">
+    <state width="1584" height="373" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1619442294695" />
+    <state width="1584" height="373" key="GridCell.Tab.0.right" timestamp="1619442294695">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1226" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619313101752" />
+    <state width="1584" height="373" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1619442294695" />
     <state x="757" y="382" key="IDE.errors.dialog" timestamp="1619328750190">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="757" y="382" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1619328750190" />
-    <state x="227" y="81" key="MergeDialog" timestamp="1619100442032">
+    <state x="227" y="81" key="MergeDialog" timestamp="1619415048820">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="227" y="81" key="MergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1619100442032" />
+    <state x="227" y="81" key="MergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1619415048820" />
     <state x="478" y="318" key="SettingsEditor" timestamp="1619098306634">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="478" y="318" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1619098306634" />
-    <state x="1306" y="372" key="Vcs.Push.Dialog.v2" timestamp="1619274455724">
+    <state x="93" y="100" width="1094" height="1207" key="ShowDiffWithBranchDialog" timestamp="1619415501810">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1306" y="372" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619274455724" />
-    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619313000738">
+    <state x="93" y="100" width="1094" height="1207" key="ShowDiffWithBranchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1619415501810" />
+    <state x="1306" y="372" key="Vcs.Push.Dialog.v2" timestamp="1619415030373">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619313000738" />
+    <state x="1306" y="372" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619415030373" />
+    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619414981794">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1643" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1619414981794" />
     <state x="1373" y="100" width="1094" height="1200" key="dock-window-1" timestamp="1619160060348">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1373" y="100" width="1094" height="1200" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1619160060348" />
+    <state x="275" y="350" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619415041186">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="275" y="350" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1619415041186" />
     <state x="1499" y="312" width="840" height="1034" key="search.everywhere.popup" timestamp="1619328132238">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
