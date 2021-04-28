@@ -16,7 +16,7 @@ import java.util.*;
 public class CombinationSum39 {
 
     /**
-     * 思想：动态规划
+     * 思想：回溯加剪枝
      *
      * @param candidates
      * @param target
