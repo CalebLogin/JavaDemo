@@ -7,7 +7,7 @@ package com.eric.alorithm.leetcode;
  * @author：hanzhigang
  * @Date : 2021/4/28 11:34 PM
  */
-public class MaxProduct152_ {
+public class MaxProduct152 {
 
     /**
      * 思路：暴力解法
@@ -45,9 +45,9 @@ public class MaxProduct152_ {
     public int maxProduct1(int[] nums) {
 
         int len = nums.length;
-        int mMax = nums[0];
-        int mMin = nums[0];
-        int res = nums[0];
+        int mMax = nums[0]; // 记录最大值
+        int mMin = nums[0]; // 记录最小值
+        int res = nums[0];  // 当前结果
 
         for (int i = 1; i < len; i++) {
             mMax = Math.max(mMax * nums[i], Math.max(mMin * nums[i], nums[i]));
@@ -59,7 +59,7 @@ public class MaxProduct152_ {
     }
 
     public static void main(String[] args) {
-        MaxProduct152_ maxProduct152 = new MaxProduct152_();
+        MaxProduct152 maxProduct152 = new MaxProduct152();
         System.out.println(maxProduct152.maxProduct(new int[]{-3, -1, -1}));
     }
 }
