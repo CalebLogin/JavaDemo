@@ -25,10 +25,10 @@ public class MaxProduct152_ {
             cur = 1;
             for (int j = i; j < len; j++) {
                 cur *= nums[j];
-                if(cur != 0){
-                    res = Math.max(cur,res);
-                }else{
-                    res = Math.max(cur,res);
+                if (cur != 0) {
+                    res = Math.max(cur, res);
+                } else {
+                    res = Math.max(cur, res);
                     break;
                 }
             }
@@ -38,18 +38,28 @@ public class MaxProduct152_ {
 
     /**
      * 思路：动态规划
+     *
      * @param nums
      * @return
      */
     public int maxProduct1(int[] nums) {
 
+        int len = nums.length;
+        int mMax = nums[0];
+        int mMin = nums[0];
+        int res = nums[0];
 
+        for (int i = 1; i < len; i++) {
+            mMax = Math.max(mMax * nums[i], Math.max(mMin * nums[i], nums[i]));
+            mMin = Math.min(mMax * nums[i], Math.min(mMin * nums[i], nums[i]));
+            res = Math.max(res,mMax);
+        }
 
-        return 0;
+        return mMax;
     }
 
     public static void main(String[] args) {
         MaxProduct152_ maxProduct152 = new MaxProduct152_();
-        System.out.println(maxProduct152.maxProduct(new int[]{-3,-1,-1}));
+        System.out.println(maxProduct152.maxProduct(new int[]{-3, -1, -1}));
     }
 }
