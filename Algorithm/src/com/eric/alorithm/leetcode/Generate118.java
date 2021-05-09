@@ -10,7 +10,7 @@ import java.util.List;
  * @author：hanzhigang
  * @Date : 2021/4/17 9:51 PM
  */
-public class generate118 {
+public class Generate118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
 
@@ -27,5 +27,10 @@ public class generate118 {
             res.add(list);
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        Generate118 generate118 = new Generate118();
+        System.out.println(generate118.generate(1));
     }
 }
