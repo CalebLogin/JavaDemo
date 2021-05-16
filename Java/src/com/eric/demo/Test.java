@@ -6,8 +6,10 @@ package com.eric.demo;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println(PinType.FORGOT_PASSWORD.getCode());
-        System.out.println(PinType.FORGOT_PASSWORD.getMessage());
-        System.out.println(PinType.FORGOT_PASSWORD.toString());
+//        System.out.println(PinType.FORGOT_PASSWORD.getCode());
+//        System.out.println(PinType.FORGOT_PASSWORD.getMessage());
+//        System.out.println(PinType.FORGOT_PASSWORD.toString());
+        System.out.println("name\tgender\tage");
+        System.out.println("Gavin\tBoy\t\t18");
     }
 }
