@@ -6,8 +6,21 @@ package com.eric.alorithm;
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println((10 | 120 | 11));
-        System.out.println(10 | 120);
-        System.out.println(Long.parseLong("11",2));
+        father f = new father();
+        Object s = ((Object)f);
+        System.out.println(f instanceof son);
+    }
+}
+class father{
+    public void m1(){
+        System.out.println("father m1");
+    }
+}
+class son extends father{
+    public void m1(){
+        System.out.println("son m1");
+    }
+    public void m2(){
+        System.out.println("son m2");
     }
 }
