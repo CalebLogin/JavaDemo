@@ -7,7 +7,7 @@ package com.eric.alorithm;
 public class test {
     public static void main(String[] args) {
         father f = new father();
-        Object s = ((Object)f);
+        son s = ((son)f);
         System.out.println(f instanceof son);
     }
 }
