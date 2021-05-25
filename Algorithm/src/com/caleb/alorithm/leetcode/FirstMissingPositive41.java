@@ -1,4 +1,4 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
 /**
  * 缺失的第一个正数

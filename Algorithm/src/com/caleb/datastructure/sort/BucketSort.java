@@ -1,7 +1,6 @@
-package com.eric.datastructure.sort;
+package com.caleb.datastructure.sort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**

@@ -1,4 +1,4 @@
-package com.eric.jvmdemo;
+package com.caleb.jvmdemo;
 
 /**
  * ClassLoader Demo

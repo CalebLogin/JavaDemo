@@ -1,9 +1,6 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * 最长不含重复字符的子字符串

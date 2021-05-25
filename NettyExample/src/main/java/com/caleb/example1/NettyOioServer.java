@@ -1,4 +1,4 @@
-package com.eric.example1;
+package com.caleb.example1;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;

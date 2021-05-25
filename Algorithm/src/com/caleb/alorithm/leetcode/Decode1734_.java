@@ -1,4 +1,4 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
 /**
  * 解码异或后的排列

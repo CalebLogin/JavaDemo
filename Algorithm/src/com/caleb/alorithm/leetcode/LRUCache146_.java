@@ -1,4 +1,4 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

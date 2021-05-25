@@ -1,6 +1,4 @@
-package com.eric.offerdemo;
-
-import java.util.function.IntConsumer;
+package com.caleb.offerdemo;
 
 /**
  * 二进制中1的个数

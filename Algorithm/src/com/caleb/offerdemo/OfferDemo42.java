@@ -1,4 +1,4 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 /**
  * 连续子数组的最大和

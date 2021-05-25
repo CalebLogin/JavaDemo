@@ -1,4 +1,4 @@
-package com.eric.juc;
+package com.caleb.juc;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;

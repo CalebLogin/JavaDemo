@@ -1,4 +1,4 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 import java.util.ArrayList;
 import java.util.List;

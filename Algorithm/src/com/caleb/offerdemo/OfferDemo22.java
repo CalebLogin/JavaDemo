@@ -1,6 +1,4 @@
-package com.eric.offerdemo;
-
-import java.util.List;
+package com.caleb.offerdemo;
 
 /**
  * 链表中倒数第k个节点

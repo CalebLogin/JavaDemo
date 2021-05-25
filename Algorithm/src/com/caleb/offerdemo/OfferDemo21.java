@@ -1,4 +1,4 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 /**
  * 调整数组顺序使奇数在偶数前面

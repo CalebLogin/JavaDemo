@@ -1,6 +1,6 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
-import com.eric.offerdemo.ListNode;
+import com.caleb.offerdemo.ListNode;
 
 /**
  * 环形链表

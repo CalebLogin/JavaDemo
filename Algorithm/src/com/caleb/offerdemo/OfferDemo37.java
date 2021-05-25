@@ -1,4 +1,4 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 import com.sun.org.apache.xpath.internal.operations.String;
 

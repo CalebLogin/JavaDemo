@@ -1,4 +1,4 @@
-package com.eric.demo1;
+package com.caleb.demo1;
 
 import java.util.Date;
 

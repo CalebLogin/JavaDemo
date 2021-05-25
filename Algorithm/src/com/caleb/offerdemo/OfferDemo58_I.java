@@ -1,4 +1,4 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 /**
  * 旋转单词顺序

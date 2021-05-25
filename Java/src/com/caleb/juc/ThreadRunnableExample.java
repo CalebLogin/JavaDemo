@@ -1,4 +1,4 @@
-package com.eric.juc;
+package com.caleb.juc;
 
 /**
  * 创建多线程的方法，通过实现Runnable的接口，来实现run的方法

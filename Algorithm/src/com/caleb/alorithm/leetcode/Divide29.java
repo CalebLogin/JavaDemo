@@ -1,4 +1,4 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
 /**
  * 两数相除

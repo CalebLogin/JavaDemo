@@ -1,4 +1,4 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
 /**
  * 在排序数组中查找元素的第一个和最后一个位置

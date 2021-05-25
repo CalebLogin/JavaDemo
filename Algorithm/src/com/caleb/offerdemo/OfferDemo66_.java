@@ -1,7 +1,6 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * 构建乘积数组

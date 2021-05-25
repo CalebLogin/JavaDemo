@@ -1,4 +1,4 @@
-package com.eric.juc;
+package com.caleb.juc;
 
 /**
  * 继承Thread实现使用线程

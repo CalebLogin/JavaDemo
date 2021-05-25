@@ -1,6 +1,5 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
-import javax.security.auth.Subject;
 import java.util.*;
 
 /**

@@ -1,6 +1,4 @@
-package com.eric.offerdemo;
-
-import java.io.PrintWriter;
+package com.caleb.offerdemo;
 
 /**
  * 打印从1到最大的n位数

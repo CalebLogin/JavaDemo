@@ -1,6 +1,6 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
-import com.eric.offerdemo.TreeNode;
+import com.caleb.offerdemo.TreeNode;
 
 /**
  * 二叉搜索树节点最小距离

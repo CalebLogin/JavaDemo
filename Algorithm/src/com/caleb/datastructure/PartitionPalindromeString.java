@@ -1,4 +1,4 @@
-package com.eric.datastructure;
+package com.caleb.datastructure;
 
 import java.util.ArrayList;
 import java.util.List;

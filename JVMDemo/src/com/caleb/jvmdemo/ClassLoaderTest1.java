@@ -1,4 +1,4 @@
-package com.eric.jvmdemo;
+package com.caleb.jvmdemo;
 
 import java.net.URL;
 import java.security.Provider;

@@ -1,4 +1,4 @@
-package com.eric.staticproxy;
+package com.caleb.staticproxy;
 
 /**
  * @author：hanzhigang

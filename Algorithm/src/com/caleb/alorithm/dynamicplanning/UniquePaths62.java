@@ -1,4 +1,4 @@
-package com.eric.alorithm.dynamicplanning;
+package com.caleb.alorithm.dynamicplanning;
 
 /**
  * 不同路径

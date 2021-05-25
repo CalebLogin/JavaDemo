@@ -1,6 +1,4 @@
-package com.eric.offerdemo;
-
-import jdk.nashorn.internal.parser.JSONParser;
+package com.caleb.offerdemo;
 
 import java.util.ArrayList;
 import java.util.HashSet;

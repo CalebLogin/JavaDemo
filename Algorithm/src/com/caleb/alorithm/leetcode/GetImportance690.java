@@ -1,8 +1,6 @@
-package com.eric.alorithm.leetcode;
+package com.caleb.alorithm.leetcode;
 
 import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 /**
  * 员工的重要性

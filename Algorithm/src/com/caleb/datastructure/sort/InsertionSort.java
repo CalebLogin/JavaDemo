@@ -1,4 +1,4 @@
-package com.eric.datastructure.sort;
+package com.caleb.datastructure.sort;
 
 /**
  * 插入排序，稳定的排序

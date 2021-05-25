@@ -1,4 +1,4 @@
-package com.eric.alorithm.dynamicplanning;
+package com.caleb.alorithm.dynamicplanning;
 
 /**
  * 使用最小花费爬楼梯

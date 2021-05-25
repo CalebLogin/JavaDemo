@@ -1,4 +1,4 @@
-package com.eric.juc;
+package com.caleb.juc;
 
 /**
  * 线程中中断例子

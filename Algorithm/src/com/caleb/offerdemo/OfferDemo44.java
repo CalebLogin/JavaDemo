@@ -1,6 +1,4 @@
-package com.eric.offerdemo;
-
-import java.util.Map;
+package com.caleb.offerdemo;
 
 /**
  * 数字序列中某一位的数字

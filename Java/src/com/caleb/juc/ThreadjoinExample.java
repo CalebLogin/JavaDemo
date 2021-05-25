@@ -1,4 +1,4 @@
-package com.eric.juc;
+package com.caleb.juc;
 
 /**
  * 测试Thread中的join方法，在线程A调用线程B的join()方法后，会先执行完线程B中的资源，接着执行线程A中的资源

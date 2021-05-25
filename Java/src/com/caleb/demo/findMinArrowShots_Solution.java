@@ -1,4 +1,4 @@
-package com.eric.demo;
+package com.caleb.demo;
 
 import java.util.Arrays;
 

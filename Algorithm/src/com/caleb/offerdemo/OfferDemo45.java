@@ -1,8 +1,6 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * 把数组组成最小的数

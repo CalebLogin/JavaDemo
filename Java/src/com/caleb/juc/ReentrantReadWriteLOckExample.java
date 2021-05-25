@@ -1,6 +1,5 @@
-package com.eric.juc;
+package com.caleb.juc;
 
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**

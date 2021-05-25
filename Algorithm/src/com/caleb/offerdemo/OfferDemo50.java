@@ -1,6 +1,5 @@
-package com.eric.offerdemo;
+package com.caleb.offerdemo;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 

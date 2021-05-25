@@ -1,6 +1,4 @@
-package com.eric.offerdemo;
-
-import java.util.Stack;
+package com.caleb.offerdemo;
 
 /**
  * 二叉树的后序遍历序列
