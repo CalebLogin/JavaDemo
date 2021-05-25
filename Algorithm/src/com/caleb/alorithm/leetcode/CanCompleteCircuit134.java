@@ -55,6 +55,6 @@ public class CanCompleteCircuit134 {
 
     public static void main(String[] args) {
         CanCompleteCircuit134 canCompleteCircuit134 = new CanCompleteCircuit134();
-        System.out.println(canCompleteCircuit134.canCompleteCircuit(new int[]{5, 1, 2, 3, 4}, new int[]{4, 4, 1, 5, 1}));
+        System.out.println(canCompleteCircuit134.canCompleteCircuit(new int[] {5, 1, 2, 3, 4}, new int[] {4, 4, 1, 5, 1}));
     }
 }
