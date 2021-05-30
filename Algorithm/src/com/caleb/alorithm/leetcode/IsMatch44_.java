@@ -15,7 +15,7 @@ package com.caleb.alorithm.leetcode;
  * @author：hanzhigang
  * @Date : 2021/4/7 9:28 PM
  */
-public class isMatch44_ {
+public class IsMatch44_ {
     public boolean isMatch(String s, String p) {
         return false;
     }
