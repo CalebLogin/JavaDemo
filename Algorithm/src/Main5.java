@@ -14,7 +14,7 @@ public class Main5 {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
-
+        sc.close();
         int l = 0, r = l + k - 1;
         int index = l, sum = 0, max;
         for (int i = 0; i <= r; i++) {

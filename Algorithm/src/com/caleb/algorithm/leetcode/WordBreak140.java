@@ -44,7 +44,7 @@ public class WordBreak140 {
     }
 
     public static void main(String[] args) {
-        WordBreak140 wordBreak140 = new WordBreak140();
+        new WordBreak140();
 
     }
 

@@ -25,6 +25,7 @@ public class Main4 {
             }
             res = temp;
             count++;
+            sc.close();
         }
         for (int i = 0; i < res.length; i++) {
             for (int j = 0; j < res[0].length; j++) {

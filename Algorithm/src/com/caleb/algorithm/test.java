@@ -7,7 +7,6 @@ package com.caleb.algorithm;
 public class test {
     public static void main(String[] args) {
         father f = new father();
-        son s = ((son)f);
         System.out.println(f instanceof son);
     }
 }

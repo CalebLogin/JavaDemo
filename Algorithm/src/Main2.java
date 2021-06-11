@@ -8,7 +8,6 @@ public class Main2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        List<int[][]> list;
         int[][][] res;
         int t = sc.nextInt();
         res = new int[t][][];
@@ -42,5 +41,6 @@ public class Main2 {
             }
 
         }
+        sc.close();
     }
 }

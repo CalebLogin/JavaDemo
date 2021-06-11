@@ -21,7 +21,6 @@ public class CountPrimes204 {
         }
         int[] res = new int[n];
         res[0] = 1; // 1不是质数
-        double des = Math.sqrt(n);
         int count = 0;
         for (int i = 2; i < n; i++) {
             if (res[i] == 0) {

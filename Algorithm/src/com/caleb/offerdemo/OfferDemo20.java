@@ -77,7 +77,6 @@ public class OfferDemo20 {
     }
 
     public static void main(String[] args) {
-        OfferDemo20 offerDemo20 = new OfferDemo20();
-//        System.out.println(offerDemo20.isNumber());
+        new OfferDemo20();
     }
 }

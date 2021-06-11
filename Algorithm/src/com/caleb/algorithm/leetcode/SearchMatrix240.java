@@ -23,7 +23,6 @@ public class SearchMatrix240 {
         int row = matrix.length;
         int col = matrix[0].length;
         int i = 0, j = col - 1;
-        boolean flag = true;
         while (i < row && j >= 0) {
             if (matrix[i][j] == target) {
                 return true;

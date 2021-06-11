@@ -36,8 +36,4 @@ public class PalindromePartition1278_ {
         }
         return count;
     }
-
-    private void helper() {
-
-    }
 }

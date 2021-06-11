@@ -1,7 +1,5 @@
 package com.caleb.algorithm.leetcode;
 
-import java.util.Optional;
-
 /**
  * 搜寻名人
  * 假设你是一个专业的狗仔，参加了一个 n 人派对，其中每个人被从 0 到 n - 1 标号。

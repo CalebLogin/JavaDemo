@@ -29,6 +29,7 @@ public class Main3 {
         for (int i = 0; i < res.length; i++) {
             System.out.print(res[i]+" ");
         }
+        in.close();
     }
 
     public static void swap(int[] res, int l, int r) {

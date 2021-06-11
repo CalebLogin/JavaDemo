@@ -15,8 +15,4 @@ public class CanFinish207_ {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         return false;
     }
-
-    private boolean dfs(){
-        return false;
-    }
 }
