@@ -1,7 +1,5 @@
 package com.caleb.offerdemo;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 import java.util.LinkedList;
 import java.util.Queue;
 

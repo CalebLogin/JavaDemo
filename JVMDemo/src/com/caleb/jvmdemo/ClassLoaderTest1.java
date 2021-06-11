@@ -2,6 +2,7 @@ package com.caleb.jvmdemo;
 
 import java.net.URL;
 import java.security.Provider;
+import sun.misc.Launcher;
 
 /**
  * 进一步了解启动类加载器和应用程序类加载器
@@ -13,7 +14,7 @@ public class ClassLoaderTest1 {
     public static void main(String[] args) {
         System.out.println("************启动类加载器*************");
 //      获取bootstrapClassLoader能够加载的api路径
-        URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
+        URL[] urls = Launcher.getBootstrapClassPath().getURLs();
         for(URL element:urls){
             System.out.println(element.toExternalForm());
         }
