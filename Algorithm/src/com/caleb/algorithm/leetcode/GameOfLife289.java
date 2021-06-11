@@ -57,49 +57,67 @@ public class GameOfLife289 {
                         count += board[i + 1][j + 1];
                     }
                 }
-                if(board[i][j] == 1){
-                    if(count < 2 || count > 3){
+                if (board[i][j] == 1) {
+                    if (count < 2 || count > 3) {
                         temp[i][j] = 0;
                     }
                 }
-                if(board[i][j] == 0 && count == 3){
+                if (board[i][j] == 0 && count == 3) {
                     temp[i][j] = 1;
                 }
             }
         }
-        for(int i = 0;i<row;i++){
-            for(int j = 0;j<col;j++){
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
                 board[i][j] = temp[i][j];
             }
         }
     }
 
     /**
-     * 栈的思想
-     * 创建标记数组
+     * 设计新的状态
      * @param board
      */
     public void gameOfLife1(int[][] board) {
 
         int row = board.length;
         int col = board[0].length;
+        int[] neighbors = new int[]{0,1,-1};
 
-        boolean[][] flags = new boolean[row][col];
-        for(int i = 0;i<row;i++){
-            Arrays.fill(flags[i],false);
-        }
-        for(int i = 0;i<row;i++){
-            for(int j = 0;j<col;j++){
-                if(!flags[i][j]){
-                    Stack<int[]> stack = new Stack<>();
-                    stack.add(new int[]{i,j});
-                    while(!stack.isEmpty()){
-
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                int count = 0;
+                for (int m = 0; m < 3; m++) {
+                    for (int n = 0; n <3; n++) {
+                        if(!(neighbors[m] == 0 && neighbors[n] == 0)){
+                            int r = i + neighbors[m];
+                            int c = j + neighbors[n];
+                            if((r>=0 && r<row) && (c>=0 && c < col) && (board[r][c] == 1 || board[r][c] == -1)){
+                                count++;
+                            }
+                        }
                     }
+                }
+                if (board[i][j] == 1) {
+                    if (count < 2 || count > 3) {
+                        board[i][j] = -1;
+                    }
+                }
+                if (board[i][j] == 0 && count == 3) {
+                    board[i][j] = 2;
                 }
             }
         }
-
-
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if(board[i][j] == 2){
+                    board[i][j] = 1;
+                }
+                if(board[i][j] == -1){
+                    board[i][j] = 0;
+                }
+                
+            }
+        }
     }
 }
