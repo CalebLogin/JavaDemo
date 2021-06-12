@@ -11,12 +11,11 @@ package com.caleb.algorithm.leetcode;
  * ============================
  */
 import java.util.Arrays;
+
 public class LengthOfLIS300 {
 
-
 	/**
-	 * 动态规划
-	 * dp[i] 表示以i结尾的最长递增子序列是多少
+	 * 动态规划 dp[i] 表示以i结尾的最长递增子序列是多少
 	 */
 	public int lengthOfLIS(int[] nums) {
 		int len = nums.length;
@@ -24,9 +23,9 @@ public class LengthOfLIS300 {
 		int max = 0;
 		Arrays.fill(dp, 1);
 		for (int i = 0; i < len; i++) {
-			for (int j = i-1; j >= 0; j--) {
-				if(nums[i] > nums[j]){
-					dp[i] = Math.max(dp[i],dp[j]+1);
+			for (int j = i - 1; j >= 0; j--) {
+				if (nums[i] > nums[j]) {
+					dp[i] = Math.max(dp[i], dp[j] + 1);
 				}
 			}
 			max = Math.max(dp[i], max);
@@ -36,21 +35,36 @@ public class LengthOfLIS300 {
 	}
 
 	/**
-	 * 贪心 + 二分查找
-	 * 贪心的思想是让递增的间隔尽可能的小
-	 * 设计一个新的队列用来存储
+	 * 贪心 + 二分查找 贪心的思想是让递增的间隔尽可能的小 设计一个新的队列用来存储
 	 */
-	public int lengthOfLIS1(int[] nums){
+	public int lengthOfLIS1(int[] nums) {
 		int len = nums.length;
+		int res = 0;
 		int[] tails = new int[len];
-		
-		return 0;
+		for (int num : nums) {
+			int i = 0,j=res;
+			while(i<j){
+				int mid = (i+j) >> 1;
+				if(tails[mid] < num){
+					i = mid + 1;
+				}else{
+					j = mid;
+				}
+			}
+			tails[i] = num;
+			if(j == res){
+				res++;
+			}
+		}
+		for(int num: tails){
+			System.out.println(num);
+		}
+		return res;
 	}
-
 
 	public static void main(String[] args) {
 		LengthOfLIS300 l = new LengthOfLIS300();
-		System.out.println(l.lengthOfLIS(new int[] {10,9,2,5,3,7,101,18}));
+		System.out.println(l.lengthOfLIS1(new int[] { 10, 9, 2, 5, 3, 7, 101, 18 }));
 	}
 
 }
