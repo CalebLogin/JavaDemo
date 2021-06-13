@@ -8,8 +8,8 @@ package com.caleb.algorithm.leetcode;
  */
 public class SortColors75 {
     public void sortColors(int[] nums) {
-        int n = nums.length;    // 数组长度
-        int r = 0, w = 0, b = 0;    // 元素出现的个数
+        int n = nums.length; // 数组长度
+        int r = 0, w = 0, b = 0; // 元素出现的个数
         for (int i = 0; i < n; i++) {
             switch (nums[i]) {
                 case 0:
@@ -34,5 +34,31 @@ public class SortColors75 {
                 nums[i] = b--;
             }
         }
+    }
+
+    /**
+     * three partition way
+     * @param nums
+     */
+    public void sortColors1(int[] nums) {
+        int len = nums.length;
+        int L = 0;
+        int less = -1,more = len;
+        int mid = 1;
+        while(L < more){
+            if(nums[L] < mid){
+                swap(nums, L++, ++less);
+            }else if(nums[L] > mid){
+                swap(nums, L, --more);
+            }else{
+                L++;
+            }
+        }
+    }
+
+    void swap(int[] nums,int l,int r){
+        int temp = nums[l];
+        nums[l] = nums[r];
+        nums[r] = temp;
     }
 }
