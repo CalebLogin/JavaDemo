@@ -12,7 +12,6 @@ import com.caleb.offerdemo.TreeNode;
 public class BuildTree105 {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-
         return buildTreeHelper(preorder, inorder, 0, preorder.length - 1, 0, inorder.length - 1);
     }
 
