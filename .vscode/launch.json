@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Trolleybus3",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.review.Trolleybus3",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch RepairFloor",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.review.RepairFloor",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Current File",
 			"request": "launch",
 			"mainClass": "${file}"
