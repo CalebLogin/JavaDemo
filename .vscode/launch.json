@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch FindMin153",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.FindMin153",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Trolleybus3",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.review.Trolleybus3",
