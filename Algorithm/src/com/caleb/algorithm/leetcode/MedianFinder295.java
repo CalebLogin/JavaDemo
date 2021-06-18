@@ -1,6 +1,5 @@
 package com.caleb.algorithm.leetcode;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
