@@ -22,6 +22,7 @@ public class Main1 {
 
             }
         }
+        sc.close();
 
     }
 
@@ -42,6 +43,7 @@ public class Main1 {
         for (int i = 0; i < bSize; i++) {
             b[i] = scanner.nextInt();
         }
+        scanner.close();
 
         return maxSize(a) + maxSize(b);
 
@@ -70,6 +72,7 @@ public class Main1 {
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
+        sc.close();
         for (int i = 0; i < n; i++) {
             res = subNum(nums[i]);
             size += resSize(res, kNum);
@@ -118,25 +121,6 @@ public class Main1 {
             }
         }
         return list.stream().mapToInt(Integer::intValue).toArray();
-    }
-
-
-    public int subString() {
-
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-
-        List<List<Integer>> list = new ArrayList<>();
-        Map<Character, Integer> map = new HashMap<>();   // 记录每个字符出现的位置
-        int start = 0, end = 0;
-        while (end < s.length()) {
-
-        }
-        return 0;
-    }
-
-    public void helper(char[] c, int step) {
-
     }
 
 }

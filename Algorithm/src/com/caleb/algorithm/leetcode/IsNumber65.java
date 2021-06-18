@@ -120,6 +120,9 @@ public class IsNumber65 {
 		for (String str : strs1) {
 			System.out.println(isNumber65.isNumber(str));
 		}
+		for (String str : strs) {
+			System.out.println(isNumber65.isNumber(str));
+		}
 		System.out.println(isNumber65.isNumber("."));
 		System.out.println(isNumber65.isNumber(".e1"));
 		System.out.println(isNumber65.isNumber("4e+"));
