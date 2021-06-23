@@ -3,6 +3,7 @@ package com.caleb.algorithm.leetcode;
 import com.caleb.offerdemo.ListNode;
 
 /**
+ * 删除链表的倒数第n个节点
  * @author：hanzhigang
  * @Date : 2021/4/4 6:59 PM
  */
