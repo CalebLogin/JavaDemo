@@ -1,4 +1,4 @@
-package com.caleb.algorithm.dynamicplanning;
+package com.caleb.algorithm.dynamicprogramming;
 
 /**
  * F(0) = 0 F(1) = 1 F(2) = F(1) + F(0)

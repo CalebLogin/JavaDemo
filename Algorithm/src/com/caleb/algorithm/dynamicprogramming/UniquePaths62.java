@@ -1,4 +1,4 @@
-package com.caleb.algorithm.dynamicplanning;
+package com.caleb.algorithm.dynamicprogramming;
 
 /**
  * 不同路径
