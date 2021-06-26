@@ -112,7 +112,7 @@ public class SlidingPuzzle773_ {
 	}
 
 	public static void main(String[] args) {
-		SlidingPuzzle773 s = new SlidingPuzzle773();
+		SlidingPuzzle773_ s = new SlidingPuzzle773_();
 		int[][] board = new int[][]{{1,2,3},{5,4,0}};
 		System.out.println(s.slidingPuzzle(board));
 	}
