@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch MyPow50",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MyPow50",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch SlidingPuzzle773",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.SlidingPuzzle773",
