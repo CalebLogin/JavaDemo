@@ -1,5 +1,3 @@
-package com.caleb.jvmdemo;
-
 /**
  * ClassLoader Demo
  * @author：hanzhigang
