@@ -7,6 +7,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Set;
 
 /**
@@ -24,7 +25,7 @@ import java.util.Set;
 public class NumBusesToDestination815 {
 
 	/**
-	 * 在判断当前路线是否含有目的地时，进行了一次深度优先遍历 在查找其他的公交线路时，进行了一次广度优先遍历
+	 * 广度优先遍历
 	 * 单向队列
 	 * @param routes
 	 * @param source
@@ -43,32 +44,28 @@ public class NumBusesToDestination815 {
 		// 每个站点对应的所有路线
 		Map<Integer, List<Integer>> stationsLines = new HashMap<>();
 		// 当前路线是否被访问过
-		Set<Integer> visited = new HashSet<>();
+		boolean[] visited = new boolean[row];
 		for (int i = 0; i < row; i++) {
 			int col = routes[i].length;
 			for (int j = 0; j < col; j++) {
 				if (routes[i][j] == target) {
 					targetLine.add(i);
 				}
-				if (stationsLines.containsKey(routes[i][j])) {
-					stationsLines.get(routes[i][j]).add(i);
-				} else {
-					List<Integer> list = new ArrayList<>();
-					list.add(i);
-					stationsLines.put(routes[i][j], list);
-				}
+				List<Integer> list = stationsLines.getOrDefault(routes[i][j], new ArrayList<>());
+				stationsLines.put(routes[i][j], list);
+				list.add(i);
 			}
 		}
 
 		// 访问过的路线
-		Deque<Integer> d = new LinkedList<>();
+		Queue<Integer> d = new LinkedList<>();
 		for (Integer line : stationsLines.get(source)) {
 			if (targetLine.contains(line)) {
 				return step;
 			} else {
 				d.add(line);
 			}
-			visited.add(line);
+			visited[line] = true;
 		}
 		while (!d.isEmpty()) {
 			int size = d.size();
@@ -80,12 +77,12 @@ public class NumBusesToDestination815 {
 					List<Integer> lines = stationsLines.get(station);
 					for (Integer line : lines) {
 						// 如果当前路线还没有乘坐过，加入队列中
-						if (!visited.contains(line)) {
+						if (!visited[line]) {
 							if (targetLine.contains(line)) {
 								return step;
 							}
 							d.offer(line);
-							visited.add(line);
+							visited[line] = true;
 						}
 					}
 				}
