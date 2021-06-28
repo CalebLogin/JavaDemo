@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch NumBusesToDestination815",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.NumBusesToDestination815",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch MinWindow76",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MinWindow76",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MyPow50",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MyPow50",
