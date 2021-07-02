@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch StaticInitialization",
+			"request": "launch",
+			"mainClass": "com.caleb.java.StaticInitialization",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch MaxIceCream1833",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MaxIceCream1833",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch NumWaysLCP07",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.NumWaysLCP07",
