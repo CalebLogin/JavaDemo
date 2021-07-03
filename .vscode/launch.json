@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch FrequencySort451",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.FrequencySort451",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch StaticInitialization",
 			"request": "launch",
 			"mainClass": "com.caleb.java.StaticInitialization",
