@@ -1,5 +1,8 @@
 package com.caleb.algorithm.leetcode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author:Caleb
  * @Date :2021-07-02 22:03:47
@@ -14,75 +17,59 @@ package com.caleb.algorithm.leetcode;
 public class SolveSudoku37 {
 
 	/**
+	 * 判断行是否出现了这些数
+	 * 判断列是否出现了这些数
+	 * 判断子矩阵是否出现了这些数
+	 * 将需要求解的位置记录下来
+	 * 判断是否已经得到了真正的解
+	 */
+	boolean[][] lines = new boolean[9][9];
+	boolean[][] columns = new boolean[9][9];
+	boolean[][][] subBoards = new boolean[3][3][9];
+	List<int[]> spaces = new ArrayList<>();
+	boolean valid = false;
+
+	/**
 	 * 基本思路：3x3的块内，一行，一列，三行，三列
 	 * 
 	 * @param board
 	 */
 	public void solveSudoku(char[][] board) {
-
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if (board[i][j] == '.') {
+					spaces.add(new int[] { i, j });
+				} else {
+					lines[i][board[i][j] - '1'] = true;
+					columns[j][board[i][j] - '1'] = true;
+					subBoards[i / 3][j / 3][board[i][j] - '1'] = true;
+				}
+			}
+		}
+		dfs(board, 0);
 	}
 
 	/**
-	 * 以3x3为单位，分别进行块内判断，行列判断，三行三列判断
+	 * 
 	 * @param board
-	 * @param boradNum 第几个3x3的矩形块
+	 * @param k
 	 */
-	private void solveSudokuHelper(char[][] board, int boradNum) {
-		int minRow = (boradNum / 3) * 3;
-		int maxRow = minRow + 3;
-		int minCol = (boradNum % 3) * 3;
-		int maxCol = minCol + 3;
-
-	}
-
-	/**
-	 * 进行块内判断是否存在确定的数值
-	 * @param board
-	 * @param minRow
-	 * @param minCol
-	 */
-	private void subBoardHelper(char[][] board,int minRow,int minCol){
-
-	}
-
-	/**
-	 * 进行一行判断，是否存在确定的确定的数值
-	 * @param board
-	 * @param row
-	 * @param col
-	 */
-	private void rowBoardHelper(char[][] board,int row,int col){
-		
-	}
-
-	/**
-	 * 进行一列判断，是否存在确定的确定的数值
-	 * @param board
-	 * @param row
-	 * @param col
-	 */
-	private void colBoardHelper(char[][] board,int row,int col){
-		
-	}	
-
-	/**
-	 * 进行三列判断，是否存在确定的确定的数值
-	 * @param board
-	 * @param row
-	 * @param col
-	 */
-	private void col3BoardHelper(char[][] board,int row,int col){
-		
-	}
-
-	/**
-	 * 进行三行判断，是否存在确定的确定的数值
-	 * @param board
-	 * @param row
-	 * @param col
-	 */
-	private void row3BoardHelper(char[][] board,int row,int col){
-		
+	private void dfs(char[][] board, int k) {
+		if (k == spaces.size()) {
+			valid = true;
+			return;
+		}
+		int[] space = spaces.get(k);
+		int row = space[0];
+		int col = space[1];
+		for (int i = 0; i < 9 && !valid; i++) {
+			if (!lines[row][i] && !columns[col][i] && !subBoards[row / 3][col / 3][i]) {
+				lines[row][i] = columns[col][i] = subBoards[row / 3][col / 3][i] = true;
+				board[row][col] = (char) (i + '0' + 1);
+				dfs(board, k + 1);
+				lines[row][i] = columns[col][i] = subBoards[row / 3][col / 3][i] = false;
+			}
+		}
 	}
 
 }
