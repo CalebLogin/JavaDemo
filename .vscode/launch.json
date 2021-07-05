@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main5",
+			"request": "launch",
+			"mainClass": "Main5",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch CountOfAtoms726",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.CountOfAtoms726",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch FrequencySort451",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.FrequencySort451",
