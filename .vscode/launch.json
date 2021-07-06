@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch FindSubstring30",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.FindSubstring30",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main5",
 			"request": "launch",
 			"mainClass": "Main5",
