@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch TrailingZeroes172",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.TrailingZeroes172",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch CountPairs1711",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.CountPairs1711",
