@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch CountPairs1711",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.CountPairs1711",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch LongestValidParentheses32",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.LongestValidParentheses32",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch FindSubstring30",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.FindSubstring30",
