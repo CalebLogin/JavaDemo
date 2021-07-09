@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch MajorityElement17_10",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MajorityElement17_10",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch NumSubarraysWithSum930",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.NumSubarraysWithSum930",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main8",
 			"request": "launch",
 			"mainClass": "Main8",
