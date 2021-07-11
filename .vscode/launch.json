@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch HIndex274",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.HIndex274",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch TimeMap981",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.TimeMap981",
