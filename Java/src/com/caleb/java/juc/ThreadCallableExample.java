@@ -9,10 +9,10 @@ import java.util.concurrent.FutureTask;
  * @Date : 2021/2/25 1:52 PM
  */
 
-class NumberThread implements Callable {
+class NumberThread implements Callable<Integer> {
 
     @Override
-    public Object call() throws Exception {
+    public Integer call() throws Exception {
         int sum = 0;
         for (int i = 0; i <= 100; i++) {
             if (i % 2 == 0) {
@@ -28,7 +28,7 @@ public class ThreadCallableExample {
     public static void main(String[] args) {
         NumberThread numberThread = new NumberThread();
 
-        FutureTask futureTask = new FutureTask(numberThread);
+        FutureTask<Integer> futureTask = new FutureTask<>(numberThread);
 
         new Thread(futureTask).start();
         try {
