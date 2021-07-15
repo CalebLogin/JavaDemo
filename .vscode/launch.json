@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch ThreadLocalStuTest",
+			"request": "launch",
+			"mainClass": "com.caleb.java.juc.ThreadLocalStuTest",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch InheritableThreadLocalDemo",
+			"request": "launch",
+			"mainClass": "com.caleb.java.juc.InheritableThreadLocalDemo",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch SerialNum",
+			"request": "launch",
+			"mainClass": "com.caleb.java.juc.SerialNum",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch T3",
 			"request": "launch",
 			"mainClass": "com.caleb.java.juc.T3",

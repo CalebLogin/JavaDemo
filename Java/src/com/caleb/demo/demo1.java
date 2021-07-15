@@ -24,12 +24,12 @@ public class demo1 {
     }
 
     public static void main(String[] args) {
-//        int[] arr = {2,5,1,3,8,5,7,4,3};
-//        bubbleSort(arr);
-//
-//        for(int i=0;i<arr.length;i++){
-//            System.out.println(arr[i]);
-//        }
+       int[] arr = {2,5,1,3,8,5,7,4,3};
+       bubbleSort(arr);
+
+       for(int i=0;i<arr.length;i++){
+           System.out.println(arr[i]);
+       }
         System.out.println(99/100);
     }
 
