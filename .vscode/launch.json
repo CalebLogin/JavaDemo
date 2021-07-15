@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch MaximumElementAfterDecrementingAndRearranging1846",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MaximumElementAfterDecrementingAndRearranging1846",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MinAbsoluteSumDiff1818",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MinAbsoluteSumDiff1818",
