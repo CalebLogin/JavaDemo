@@ -22,7 +22,7 @@ public class FailFast {
 
     private static void printAll() {
         String value = null;
-        Iterator iterator = list.iterator();
+        Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             value = (String) iterator.next();
             System.out.println(value);

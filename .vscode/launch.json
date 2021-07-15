@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch T3",
+			"request": "launch",
+			"mainClass": "com.caleb.java.juc.T3",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch T2",
+			"request": "launch",
+			"mainClass": "com.caleb.java.juc.T2",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaximumElementAfterDecrementingAndRearranging1846",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MaximumElementAfterDecrementingAndRearranging1846",
