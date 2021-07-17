@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch MaxSubArrayOffer42",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MaxSubArrayOffer42",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch SearchOffer53I",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.SearchOffer53I",
