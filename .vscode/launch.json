@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch FooExample",
+			"request": "launch",
+			"mainClass": "com.caleb.juc.FooExample",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaxFrequency1838",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MaxFrequency1838",
