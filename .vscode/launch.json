@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch IsCovered1893",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.IsCovered1893",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch FooExample",
 			"request": "launch",
 			"mainClass": "com.caleb.juc.FooExample",
