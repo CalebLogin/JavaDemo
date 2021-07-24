@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch SolveNQueens51",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.SolveNQueens51",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaximumTime1738",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MaximumTime1738",
