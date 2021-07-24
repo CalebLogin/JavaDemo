@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch test",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.test",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch SolveNQueens51",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.SolveNQueens51",
