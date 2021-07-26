@@ -6,6 +6,48 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch MinOperations1713",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MinOperations1713",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch RestoreArray1743",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.RestoreArray1743",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main4",
+			"request": "launch",
+			"mainClass": "com.caleb.Main4",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main2",
+			"request": "launch",
+			"mainClass": "com.caleb.Main2",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
+			"mainClass": "com.caleb.Main",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main9",
+			"request": "launch",
+			"mainClass": "com.caleb.Main9",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch test",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.test",
