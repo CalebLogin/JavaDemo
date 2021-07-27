@@ -1,7 +1,9 @@
 {
 	"java.project.sourcePaths": [
+		"jvmdemo",
 		"java/src",
-		"algorithm/src",
-		"jvmdemo/"
-	]
+		"algorithm/src"
+	],
+	"maven.view": "hierarchical",
+	"java.configuration.updateBuildConfiguration": "automatic"
 }

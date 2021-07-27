@@ -6,6 +6,34 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "App",
+			"projectName": "mavendemo"
+		},
+		{
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "com.threadexample.App",
+			"projectName": "threadpool"
+		},
+		{
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "App",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "com.threadpool.App",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch FindSecondMinimumValue671",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.FindSecondMinimumValue671",
