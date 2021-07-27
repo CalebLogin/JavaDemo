@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch FindSecondMinimumValue671",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.FindSecondMinimumValue671",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MinOperations1713",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MinOperations1713",
