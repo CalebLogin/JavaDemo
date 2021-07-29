@@ -6,6 +6,12 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch PathInZigZagTree1104",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.PathInZigZagTree1104"
+		},
+		{
+			"type": "java",
 			"name": "Launch App",
 			"request": "launch",
 			"mainClass": "com.threadpoolexample.App"
