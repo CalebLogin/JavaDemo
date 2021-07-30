@@ -1,6 +1,5 @@
 {
 	"java.project.sourcePaths": [
-		"jvmdemo",
 		"java/src",
 		"algorithm/src"
 	],

@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch PostorderTraversal145",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.tree.PostorderTraversal145",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch PathInZigZagTree1104",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.PathInZigZagTree1104"
