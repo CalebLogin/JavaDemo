@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch VerticalTraversal987",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.VerticalTraversal987",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main1",
+			"request": "launch",
+			"mainClass": "com.caleb.iqiyi.Main1",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
+			"mainClass": "com.caleb.iqiyi.Main",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch PostorderTraversal145",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.tree.PostorderTraversal145",
