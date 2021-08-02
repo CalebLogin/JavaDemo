@@ -37,7 +37,7 @@ public class BuildTree105 {
         return root;
     }
 
-    private TreeNode buildTreeHelper1(int[] preorder, int[] inorder, int prel, int prer, int inl, int inr) {
+    private TreeNode buildTreeHelperr(int[] preorder, int[] inorder, int prel, int prer, int inl, int inr) {
         if (inl > inr) {
             return null;
         }
@@ -45,8 +45,8 @@ public class BuildTree105 {
         int i;
         for (i = 0; i < inr - inl && inorder[i + inl] != preorder[prel]; i++) ;
         node = new TreeNode(inorder[inl + i]);
-        node.left = buildTreeHelper1(preorder, inorder, prel + 1, prel + i - 1, inl, inl + i - 1);
-        node.right = buildTreeHelper1(preorder, inorder, prel + i + 1, prer, inl + i + 1, inr);
+        node.left = buildTreeHelperr(preorder, inorder, prel + 1, prel + i - 1, inl, inl + i - 1);
+        node.right = buildTreeHelperr(preorder, inorder, prel + i + 1, prer, inl + i + 1, inr);
         return node;
     }
 
