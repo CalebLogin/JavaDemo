@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch FindUnsortedSubarray581",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.FindUnsortedSubarray581",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch VerticalTraversal987",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.VerticalTraversal987",
