@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch MinNumber45",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.review.offerdemo.MinNumber45",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch TriangleNumber611",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.TriangleNumber611",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch FindUnsortedSubarray581",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.FindUnsortedSubarray581",
