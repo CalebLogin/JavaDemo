@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch EventualSafeNodes802",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.EventualSafeNodes802",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MinNumber45",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.review.offerdemo.MinNumber45",
