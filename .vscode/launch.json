@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Partition131",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.review.Partition131",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Tribonacci1137",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.Tribonacci1137",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch CircularArrayLoop457",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.CircularArrayLoop457",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main",
 			"request": "launch",
 			"mainClass": "com.caleb.alibaba.Main",
