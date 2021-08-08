@@ -1,9 +1,9 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
-
 import java.util.LinkedList;
 import java.util.Queue;
+
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 对称二叉树

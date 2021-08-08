@@ -1,9 +1,9 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.ListNode;
-
 import java.util.Comparator;
 import java.util.PriorityQueue;
+
+import com.caleb.algorithm.offerdemo.ListNode;
 
 /**
  * 合并K个升序链表

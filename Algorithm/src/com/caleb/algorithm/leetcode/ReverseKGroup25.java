@@ -1,6 +1,6 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.ListNode;
+import com.caleb.algorithm.offerdemo.ListNode;
 
 /**
  * K个一组翻转链表

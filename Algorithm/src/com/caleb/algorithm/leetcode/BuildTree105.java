@@ -1,6 +1,6 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 从前序与中序遍历序列构造二叉树

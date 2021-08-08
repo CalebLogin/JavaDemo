@@ -1,6 +1,6 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 二叉树的最大路径和

@@ -1,6 +1,6 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 将有序数组转换为二叉搜索树

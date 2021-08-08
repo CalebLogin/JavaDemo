@@ -1,8 +1,8 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
-
 import java.util.LinkedList;
+
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 二叉搜索树的范围和

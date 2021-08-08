@@ -1,9 +1,9 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 叶子相似的树

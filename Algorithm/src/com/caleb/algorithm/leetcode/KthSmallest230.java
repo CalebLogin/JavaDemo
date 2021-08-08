@@ -1,6 +1,6 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 二叉搜索树中第K小的元素

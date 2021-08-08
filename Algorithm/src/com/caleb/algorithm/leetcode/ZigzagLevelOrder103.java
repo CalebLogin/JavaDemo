@@ -1,10 +1,10 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 二叉树的锯齿形层序遍历

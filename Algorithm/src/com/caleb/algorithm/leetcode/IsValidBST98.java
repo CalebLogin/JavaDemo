@@ -1,9 +1,9 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.offerdemo.TreeNode;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
+
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * 验证二叉搜索树
