@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "com.caleblogin.App",
+			"projectName": "proxy"
+		},
+		{
+			"type": "java",
+			"name": "Launch CglibProxyFactory",
+			"request": "launch",
+			"mainClass": "com.caleblogin.CglibProxyFactory",
+			"projectName": "proxy"
+		},
+		{
+			"type": "java",
+			"name": "Launch JdkProxyFactory",
+			"request": "launch",
+			"mainClass": "com.caleb.java.dynamicproxy.JdkProxyFactory",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Partition131",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.review.Partition131",

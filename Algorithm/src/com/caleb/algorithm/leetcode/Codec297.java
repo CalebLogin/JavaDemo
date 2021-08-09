@@ -3,8 +3,6 @@ package com.caleb.algorithm.leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.caleb.demo.TreeNode;
-
 /**
  * @author:Caleb
  * @Date :2021-06-18 11:18:19

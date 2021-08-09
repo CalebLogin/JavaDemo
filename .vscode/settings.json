@@ -1,7 +1,7 @@
 {
 	"java.project.sourcePaths": [
-		"java/src",
-		"algorithm/src"
+		"algorithm/src",
+		"java/src"
 	],
 	"maven.view": "hierarchical",
 	"java.configuration.updateBuildConfiguration": "automatic",

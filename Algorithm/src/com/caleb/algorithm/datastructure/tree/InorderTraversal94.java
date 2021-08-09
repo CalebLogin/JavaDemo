@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import com.caleb.demo.TreeNode;
+import com.caleb.algorithm.leetcode.TreeNode;
 
 /**
  * @author:Caleb

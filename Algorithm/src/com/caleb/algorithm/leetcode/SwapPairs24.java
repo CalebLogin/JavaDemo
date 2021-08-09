@@ -1,6 +1,6 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.demo.ListNode;
+import com.caleb.algorithm.offerdemo.ListNode;
 
 /**
  * 两两交换链表中的节点

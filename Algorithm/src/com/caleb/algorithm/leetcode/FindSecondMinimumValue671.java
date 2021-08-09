@@ -1,7 +1,5 @@
 package com.caleb.algorithm.leetcode;
 
-import com.caleb.demo.TreeNode;
-
 /**
  * @author:Caleb
  * @Date :2021-07-27 09:09:58
