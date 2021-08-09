@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main2",
+			"request": "launch",
+			"mainClass": "com.caleb.alibaba.Main2",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main1",
+			"request": "launch",
+			"mainClass": "com.caleb.alibaba.Main1",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch App",
 			"request": "launch",
 			"mainClass": "com.caleblogin.App",

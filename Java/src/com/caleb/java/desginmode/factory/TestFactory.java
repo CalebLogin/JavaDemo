@@ -12,6 +12,7 @@ public class TestFactory {
         Scanner input=new Scanner(System.in);
         int type=input.nextInt();
         Clothes clothes = ClothesFactory.createClothes(type);
+        input.close();
         if(clothes!=null){
             System.out.println("购买成功");
         }else{
