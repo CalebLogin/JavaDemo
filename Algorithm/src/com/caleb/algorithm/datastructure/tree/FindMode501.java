@@ -1,5 +1,8 @@
 package com.caleb.algorithm.datastructure.tree;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.caleb.algorithm.leetcode.TreeNode;
 
 /**
@@ -17,8 +20,42 @@ import com.caleb.algorithm.leetcode.TreeNode;
  */
 public class FindMode501 {
 
+	List<Integer> res = new ArrayList<>();
+	int maxCount = 0;
+	int preCount = 0;
+	TreeNode preNode = null;
+
 	public int[] findMode(TreeNode root) {
-		return null;
+		dfs(root);
+		int[] array = res.stream().mapToInt(i -> i.intValue()).toArray();
+		return array;
+	}
+
+	public void dfs(TreeNode root) {
+		if (root == null) {
+			return;
+		}
+		dfs(root.left);
+		if (preNode != null) {
+			if (root.val == preNode.val) {
+				preCount++;
+			} else {
+				preCount = 1;
+			}
+		}else{	
+			preCount++;
+		}
+		preNode = root;
+		if (preCount > maxCount) {
+			res.clear();
+			maxCount = preCount;
+			res.add(root.val);
+		} else if (preCount == maxCount) {
+			res.add(root.val);
+		}
+		
+
+		dfs(root.right);
 	}
 
 }
