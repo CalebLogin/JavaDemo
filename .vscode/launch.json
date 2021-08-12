@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main10",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main10",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch NumberOfArithmeticSlices446",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.NumberOfArithmeticSlices446",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch NumberOfArithmeticSlices413",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.NumberOfArithmeticSlices413",
