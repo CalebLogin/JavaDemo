@@ -1,4 +1,4 @@
-package com.caleb.algorithm.leetcode;
+package com.caleb.algorithm.review;
 
 import com.caleb.algorithm.offerdemo.ListNode;
 
@@ -35,29 +35,5 @@ public class ReverseList206 {
 		return head;
 
 	}
-
-	// 递归
-    public ListNode reverseList0(ListNode head) {
-        if(head == null || head.next == null){
-            return head;
-        }
-        ListNode newHead = reverseList(head.next);
-        head.next.next = head;
-        head.next = null;
-        return newHead;
-    }
-
-    // 循环
-    public ListNode reverseList1(ListNode head){
-        ListNode curNode = head;
-        ListNode prev = null;
-        while(curNode != null){
-            ListNode temp = curNode.next;
-            curNode.next = prev;
-            prev = curNode;
-            curNode = temp;
-        }
-        return prev;
-    }
 
 }

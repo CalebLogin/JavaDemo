@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch UnhappyFriends1583",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.UnhappyFriends1583",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main12",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main12",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main11",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main11",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main10",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main10",
