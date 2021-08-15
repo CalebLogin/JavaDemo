@@ -15,9 +15,8 @@ public class Trie {
 		for (Character c : str.toCharArray()) {
 			if (currNode.children[c - 'a'] == null) {
 				currNode.children[c - 'a'] = new Trie();
-			} else {
-				currNode = currNode.children[c - 'a'];
 			}
+			currNode = currNode.children[c - 'a'];
 		}
 		currNode.isEnd = true;
 	}
