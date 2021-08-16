@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch SuperEggDrop887",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.SuperEggDrop887",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch LengthOfLongestSubstring48",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.review.LengthOfLongestSubstring48",
