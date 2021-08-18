@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main13",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main13",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch MinPathSum64",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.MinPathSum64",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Jump45",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.review.Jump45",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch SuperEggDrop887",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.SuperEggDrop887",
