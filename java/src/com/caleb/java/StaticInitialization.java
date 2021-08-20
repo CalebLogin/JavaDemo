@@ -1,9 +1,5 @@
 package com.caleb.java;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
-
 /**
  * @author：hanzhigang
  * @Date : 2021/3/14 2:41 PM
@@ -67,17 +63,17 @@ public class StaticInitialization {
         cupboard.otherMethod(1);
         // A b = new B();
         // b = new B();
-        Set<Integer> s = new HashSet<>();
-        s.add(1);
-        s.add(2);
-        s.add(3);
-        Iterator<Integer> i = s.iterator();
-        while(i.hasNext()){
-            if(i.next() == 1){
-                i.remove();
-            }
-            System.out.println(i.next());
-        }
+        // Set<Integer> s = new HashSet<>();
+        // s.add(1);
+        // s.add(2);
+        // s.add(3);
+        // Iterator<Integer> i = s.iterator();
+        // while(i.hasNext()){
+        //     if(i.next() == 1){
+        //         i.remove();
+        //     }
+        //     System.out.println(i.next());
+        // }
     }
 
     static Table table = new Table();

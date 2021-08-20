@@ -23,22 +23,19 @@ public class Main13 {
 			counts[i] = Integer.parseInt(strs[1]);
 			favorites[i] = Integer.parseInt(strs[2]);
 		}
-		int[][] dp = new int[n + 1][x + 1];
+		int[] dp = new int[x + 1];
 		for (int i = 1; i <= n; i++) {
-			int pri = prices[i-1];
-			int count = counts[i-1];
-			int f = favorites[i-1];
-			for (int j = 1; j <= x; j++) {
-				if (j > pri) {
-					for (int c = 1; c <= count && c * pri <= j; c++) {
-						dp[i][j] = Math.max(dp[i - 1][x], dp[i - 1][j - c * pri] + c * f);
-					}
-				} else {
-					dp[i][j] = dp[i - 1][j];
+			int pri = prices[i - 1];
+			int count = counts[i - 1];
+			int f = favorites[i - 1];
+			for (int j = x; j >= pri; j--) {
+				int c = Math.min(j / pri, count);
+				for (; c >= 0; c--) {
+					dp[j] = Math.max(dp[j], dp[j - c * pri] + f * c);
 				}
 			}
 		}
-		System.out.println(dp[n][x]);
+		System.out.println(dp[x]);
 	}
 
 	public static void main(String[] args) {

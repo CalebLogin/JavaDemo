@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main3",
+			"request": "launch",
+			"mainClass": "com.caleb.alibaba.Main3",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch FindRotateSteps514",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.FindRotateSteps514",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main14",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main14",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main13",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main13",

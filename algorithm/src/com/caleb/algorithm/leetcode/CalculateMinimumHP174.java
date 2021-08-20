@@ -1,5 +1,7 @@
 package com.caleb.algorithm.leetcode;
 
+import java.util.Arrays;
+
 /**
  * @author:Caleb
  * @Date :2021-08-18 17:23:37
@@ -33,21 +35,21 @@ public class CalculateMinimumHP174 {
 	public int calculateMinimumHP(int[][] dungeon) {
 		int m = dungeon.length;
 		int n = dungeon[0].length;
-		int[][] values = new int[m][n];
-		int[][] dp = new int[m][n];
-		if (dungeon[0][0] < 0) {
-			dp[0][0] = Math.abs(dungeon[0][0]) + 1;
-			values[0][0] = 1;
-		} else {
-			dp[0][0] = 1;
-			values[0][0] = dungeon[0][0];
+		int[][] dp = new int[m + 1][n + 1];
+		for (int[] row : dp) {
+			Arrays.fill(row, Integer.MAX_VALUE);
 		}
-		for (int i = 1; i < m; i++) {
-			if(dp[0][i-1] + dungeon[0][i] > 0){
-				values[0][i] = 0;
+		dp[m - 1][n - 1] = dungeon[m - 1][n - 1] > 0 ? 1 : -dungeon[m - 1][n - 1] + 1;
+		for (int i = m - 1; i >= 0; i--) {
+			for (int j = n - 1; j >= 0; j--) {
+				if (i == m - 1 && j == n - 1) {
+					continue;
+				}
+				int res = Math.min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j];
+				dp[i][j] = res <= 0 ? 1 : res;
 			}
 		}
-		return 0;
+		return dp[0][0];
 
 	}
 }
