@@ -1,10 +1,8 @@
 package com.caleb.algorithm.leetcode;
 
 /**
- * 岛屿数量
- * 给你一个由 '1'（陆地）和 '0'（水）组成的的二维网格，请你计算网格中岛屿的数量。
- * 岛屿总是被水包围，并且每座岛屿只能由水平方向和/或竖直方向上相邻的陆地连接形成。
- * 此外，你可以假设该网格的四条边均被水包围。
+ * 岛屿数量 给你一个由 '1'（陆地）和 '0'（水）组成的的二维网格，请你计算网格中岛屿的数量。
+ * 岛屿总是被水包围，并且每座岛屿只能由水平方向和/或竖直方向上相邻的陆地连接形成。 此外，你可以假设该网格的四条边均被水包围。
  *
  * @author：hanzhigang
  * @Date : 2021/5/11 12:14 AM
@@ -42,11 +40,47 @@ public class NumIslands200 {
         }
     }
 
+    class FindUnion {
+        int[] rank;
+        int[] nodes;
+
+        public FindUnion(int n) {
+            rank = new int[n];
+            nodes = new int[n];
+            for (int i = 0; i < n; i++) {
+                nodes[i] = i;
+                rank[i] = 1;
+            }
+        }
+
+        public int find(int x) {
+            if (nodes[x] == x) {
+                return x;
+            }
+            return nodes[x] = find(nodes[x]);
+        }
+
+        public void union(int x, int y) {
+            int rootX = find(x);
+            int rootY = find(y);
+            if (rootX == rootY) {
+                return;
+            }
+            if (rank[rootX] > rank[rootY]) {
+                nodes[rootY] = rootX;
+            } else if (rank[rootX] < rank[rootY]) {
+                nodes[rootX] = rootY;
+            } else {
+                nodes[rootY] = rootX;
+                rank[rootY]++;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         NumIslands200 numIslands200 = new NumIslands200();
-        System.out.println(numIslands200.numIslands(
-                new char[][]{{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'},
-                        {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}}));
+        System.out.println(numIslands200.numIslands(new char[][] { { '1', '1', '0', '0', '0' },
+                { '1', '1', '0', '0', '0' }, { '0', '0', '1', '0', '0' }, { '0', '0', '0', '1', '1' } }));
     }
 
 }

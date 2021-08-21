@@ -55,6 +55,49 @@ public class SuperEggDrop887 {
 		return res;
 	}
 
+	public int superEggDrop1(int k, int n) {
+		return dp1(k, n);
+	}
+
+	/**
+	 * k个鸡蛋，n层楼
+	 * 
+	 * @param k
+	 * @param n
+	 * @return
+	 */
+	private int dp1(int k, int n) {
+		if (memo.containsKey(k + "," + n)) {
+			return memo.get(k + "," + n);
+		}
+		if (k == 1) {
+			return n;
+		}
+		if (n == 0) {
+			return 0;
+		}
+		int res = 0;
+		int left = 1, right = n;
+		while (left <= right) {
+			int mid = left + (right - left) / 2;
+			// 如果在当前层鸡蛋碎了
+			int ls = dp1(k - 1, mid - 1);
+			// 如果在当前层鸡蛋没碎
+			int hs = dp1(k, n - mid);
+			if (ls > hs) {
+				right = mid - 1;
+			} else if (hs > ls) {
+				left = mid + 1;
+			} else {
+				left = right = mid;
+			}
+		}
+		res = 1 + Math.min(Math.max(dp1(k - 1, left - 1), dp1(k, n - left)),
+				Math.max(dp1(k - 1, right - 1), dp1(k, n - right)));
+		memo.put(k + "," + n, res);
+		return res;
+	}
+
 	public static void main(String[] args) {
 		SuperEggDrop887 superEggDrop887 = new SuperEggDrop887();
 		System.out.println(superEggDrop887.superEggDrop(1, 2));
