@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main3",
+			"request": "launch",
+			"mainClass": "com.caleb.pdd.Main3",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main15",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main15",
