@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch CountDownLatchTime",
+			"request": "launch",
+			"mainClass": "com.caleb.juc.CountDownLatchTime",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main3",
 			"request": "launch",
 			"mainClass": "com.caleb.pdd.Main3",
