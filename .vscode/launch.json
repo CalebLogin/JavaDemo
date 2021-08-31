@@ -6,6 +6,34 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main19",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main19",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main18",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main18",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Mother",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Mother",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch MinCut132",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.review.MinCut132",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaxProfit714",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MaxProfit714",

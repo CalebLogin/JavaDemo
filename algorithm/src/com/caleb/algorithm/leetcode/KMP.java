@@ -5,10 +5,8 @@ package com.caleb.algorithm.leetcode;
  * @Date :2021-08-30 10:14:19
  */
 public class KMP {
-
 	private int[][] dp;
 	private String pat;
-
 	public KMP(String pat) {
 		int M = pat.length();
 		dp = new int[M][256];
@@ -23,7 +21,6 @@ public class KMP {
 			X = dp[X][pat.charAt(j)];
 		}
 	}
-
 	public int search(String txt) {
 		int M = pat.length();
 		int N = txt.length();
@@ -36,5 +33,4 @@ public class KMP {
 		}
 		return -1;
 	}
-
 }
