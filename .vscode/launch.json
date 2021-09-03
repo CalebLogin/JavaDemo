@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main20",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main20",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
+			"mainClass": "com.caleb.tencent.Main",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main19",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main19",

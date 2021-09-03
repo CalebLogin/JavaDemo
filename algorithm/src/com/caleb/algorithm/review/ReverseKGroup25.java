@@ -9,38 +9,34 @@ import com.caleb.algorithm.offerdemo.ListNode;
 public class ReverseKGroup25 {
 
 	public ListNode reverseKGroup(ListNode head, int k) {
-		ListNode prev = new ListNode(-1);
-		prev.next = head;
-		ListNode prevNode = prev;
+		int i = 0;
 		ListNode node = head;
-		ListNode lastNode;
-		while (node != null) {
-			int i = 1;
-			lastNode = node;
-			ListNode leftNode = lastNode;
-			ListNode after;
-			for (; i < k && node != null; i++) {
-				node = node.next;
-			}
-			if (node == null) {
-				after = null;
-				prevNode.next = lastNode;
-			} else {
-				after = node.next;
-				node.next = null;
-				ListNode tempPre = after;
-				while (leftNode != null) {
-					ListNode temp = leftNode.next;
-					leftNode.next = tempPre;
-					tempPre = leftNode;
-					leftNode = temp;
-				}
-				prevNode.next = node;
-				prevNode = lastNode;
-			}
-			node = after;
+		while (i < k && node != null) {
+			node = node.next;
+			i++;
 		}
-		return prev.next;
+		if (i != k) {
+			return head;
+		}
+		ListNode after = node.next;
+		node.next = null;
+		ListNode reNode = reverseGroup(head);
+		head.next = reverseKGroup(after, k);
+		return reNode;
+	}
+
+	public ListNode reverseGroup(ListNode node) {
+		if (node == null) {
+			return null;
+		}
+		if (node.next == null) {
+			return node;
+		}
+		ListNode after = reverseGroup(node.next);
+		node.next.next = node;
+		node.next = null;
+		return after;
+
 	}
 
 }
