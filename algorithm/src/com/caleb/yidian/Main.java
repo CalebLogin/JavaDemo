@@ -1,4 +1,4 @@
-package com.caleb.algorithm.yidian;
+package com.caleb.yidian;
 
 import com.caleb.algorithm.leetcode.TreeNode;
 import com.caleb.algorithm.offerdemo.ListNode;
