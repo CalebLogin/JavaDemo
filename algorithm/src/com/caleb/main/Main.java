@@ -121,25 +121,25 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		List<List<String>> aa = new ArrayList<>();
-		List<String> list1 = new ArrayList<>();
-		list1.add("10:00");
-		list1.add("12:00");
-		List<String> list2 = new ArrayList<>();
-		list2.add("03:00");
-		list2.add("11:30");
-		List<String> list3 = new ArrayList<>();
-		list3.add("11:30");
-		list3.add("14:00");
-		List<String> list4 = new ArrayList<>();
-		list4.add("11:30");
-		list4.add("14:00");
-		aa.add(list1);
-		aa.add(list2);
-		aa.add(list3);
-		aa.add(list4);
-		Main m = new Main();
-		System.out.println(m.countMaxActivity(aa));
+		// List<List<String>> aa = new ArrayList<>();
+		// List<String> list1 = new ArrayList<>();
+		// list1.add("10:00");
+		// list1.add("12:00");
+		// List<String> list2 = new ArrayList<>();
+		// list2.add("03:00");
+		// list2.add("11:30");
+		// List<String> list3 = new ArrayList<>();
+		// list3.add("11:30");
+		// list3.add("14:00");
+		// List<String> list4 = new ArrayList<>();
+		// list4.add("11:30");
+		// list4.add("14:00");
+		// aa.add(list1);
+		// aa.add(list2);
+		// aa.add(list3);
+		// aa.add(list4);
+		// Main m = new Main();
+		// System.out.println(m.countMaxActivity(aa));
 	}
 
 }
