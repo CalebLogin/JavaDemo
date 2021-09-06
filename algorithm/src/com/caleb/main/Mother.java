@@ -22,7 +22,7 @@ public abstract class Mother{
 		};
 		Mother.Son s = m.new Son(){
 			public int getAge(){
-				return 57;
+				return 57+super.getAge();
 			}
 		};
 		System.out.println(s.getAge() + " " + m.getAge());
