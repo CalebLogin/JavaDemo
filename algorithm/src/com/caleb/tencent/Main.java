@@ -4,9 +4,8 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
-import java.util.Queue;
 
-import com.caleb.algorithm.leetcode.TreeNode;
+import com.caleb.algorithm.offerdemo.TreeNode;
 
 /**
  * @author:Caleb

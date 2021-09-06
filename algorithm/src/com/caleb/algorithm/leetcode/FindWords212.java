@@ -104,13 +104,6 @@ public class FindWords212 {
 			}
 		}
 	}
-
-	/**
-	 * 前缀树
-	 * @param board
-	 * @param words
-	 * @return
-	 */
 	// public List<String> findWords1(char[][] board, String[] words) {
 
 	// }

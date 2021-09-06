@@ -39,7 +39,7 @@ public class Main1 {
 			}
 			nums[i] = time;
 		}
-
+		sc.close();
 		Arrays.sort(nums1);
 		Arrays.sort(nums);
 		int res = 0;

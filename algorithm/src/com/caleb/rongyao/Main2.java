@@ -13,6 +13,7 @@ public class Main2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String com = sc.nextLine();
+		sc.close();
 		String[] commands = com.split("\\|");
 		List<String> list = new ArrayList<>();
 		for (int i = 0; i < commands.length; i++) {
