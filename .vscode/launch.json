@@ -6,6 +6,34 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main2",
+			"request": "launch",
+			"mainClass": "com.caleb.baidu.Main2",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main3",
+			"request": "launch",
+			"mainClass": "com.caleb.baidu.Main3",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main1",
+			"request": "launch",
+			"mainClass": "com.caleb.baidu.Main1",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch ExamRoom855",
+			"request": "launch",
+			"mainClass": "com.caleb.algorithm.leetcode.ExamRoom855",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main26",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main26",
