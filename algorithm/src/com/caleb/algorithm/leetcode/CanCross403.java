@@ -17,10 +17,17 @@ package com.caleb.algorithm.leetcode;
  *       如果青蛙上一步跳跃了 k 个单位，那么它接下来的跳跃距离只能选择为 k - 1、k 或 k + 1
  *       个单位。 另请注意，青蛙只能向前方（终点的方向）跳跃。
  * 
- * 
  **/
 public class CanCross403 {
 	public boolean canCross(int[] stones) {
+		//如果河流长度为0或者为1，直接true
+		if (stones.length == 0 || stones.length == 1) {
+			return true;
+		}
+		// 如果第二块都过不去，直接false
+		if (stones[1] - stones[0] > 1) {
+			return false;
+		}
 		
 		return false;
 	}
