@@ -6,6 +6,41 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch LambdaCollector",
+			"request": "launch",
+			"mainClass": "com.caleb.java.java8.lambda.LambdaCollector",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch LambdaMapAndReduce",
+			"request": "launch",
+			"mainClass": "com.caleb.java.java8.lambda.LambdaMapAndReduce",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch LambdaFilterAndPredicate",
+			"request": "launch",
+			"mainClass": "com.caleb.java.java8.lambda.LambdaFilterAndPredicate",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch LambdaDemo1",
+			"request": "launch",
+			"mainClass": "com.caleb.java.java8.lambda.LambdaDemo1",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch TestMethodRef",
+			"request": "launch",
+			"mainClass": "com.caleb.java.java8.lambda.TestMethodRef",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main2",
 			"request": "launch",
 			"mainClass": "com.caleb.jd.Main2",
