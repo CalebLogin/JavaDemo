@@ -21,6 +21,7 @@ public class Main1 {
 			String str = sc.nextLine().replace("[", "").replace("]", "").replace(",", "").replace(" ", "");
 			input.add(str);
 		}
+		sc.close();
 		int m = input.size();
 		int n = input.get(0).length();
 		int[][] matrix = new int[m][n];

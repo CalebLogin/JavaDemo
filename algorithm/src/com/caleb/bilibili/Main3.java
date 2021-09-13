@@ -11,10 +11,6 @@ public class Main3 {
 	public static void alg() {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		if(n == 0){
-			System.out.println(0);
-			return;
-		}
 		int[] intX = new int[500001];
 		int[] intY = new int[500001];
 		for (int i = 0; i < n; i++) {
@@ -23,6 +19,7 @@ public class Main3 {
 			intX[x]++;
 			intY[y]++;
 		}
+		sc.close();
 		int res = Integer.MIN_VALUE;
 		for (int xx : intX) {
 			if (xx > res) {
