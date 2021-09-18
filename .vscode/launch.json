@@ -6,6 +6,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main31",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main31",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main30",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main30",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main29",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main29",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main28",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main28",
