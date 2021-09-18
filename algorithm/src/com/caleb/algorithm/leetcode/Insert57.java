@@ -62,9 +62,4 @@ public class Insert57 {
 		return res.toArray(new int[0][0]);
 	}
 
-	public static void main(String[] args) {
-		Insert57 i = new Insert57();
-
-	}
-
 }

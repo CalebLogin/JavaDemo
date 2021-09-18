@@ -6,6 +6,13 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main2",
+			"request": "launch",
+			"mainClass": "com.caleb.meituan.Main2",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main32",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main32",

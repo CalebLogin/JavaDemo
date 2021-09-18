@@ -73,6 +73,7 @@ public class Main32 {
 				}
 			}
 		}
+		sc.close();
 		System.out.println((rowOffset - rRow) + " " + (colOffset - rCol));
 	}
 
