@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main35",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main35",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main34",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main34",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch Main33",
 			"request": "launch",
 			"mainClass": "com.caleb.main.Main33",
