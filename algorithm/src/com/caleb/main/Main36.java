@@ -53,9 +53,13 @@ public class Main36 {
 	}
 
 	public static void main(String[] args) {
-		int[][] matrix = new int[][]{{1,3,5,10},{2,4,6,11},{7,9,12,20}};
-		System.out.println(judgeV(matrix, 4));
-		System.out.println(judgeV(matrix, 13));
+		String str1 = "a";
+		String str2= "a";
+		String str3 = new String("a");
+		System.out.println(str1 == str2);
+		System.out.println(str1 == str3);
+		str3 = str3.intern();
+		System.out.println(str1 == str3);
 	}
 
 }
