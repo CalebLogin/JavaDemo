@@ -6,6 +6,20 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "Launch Main39",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main39",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main37",
+			"request": "launch",
+			"mainClass": "com.caleb.main.Main37",
+			"projectName": "JavaDemo_b890fae3"
+		},
+		{
+			"type": "java",
 			"name": "Launch MaxEqualFreq1224",
 			"request": "launch",
 			"mainClass": "com.caleb.algorithm.leetcode.MaxEqualFreq1224",
